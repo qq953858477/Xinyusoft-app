@@ -1,0 +1,61 @@
+<html>
+<meta http-equiv="Content-Security-Policy"
+	content="">
+<meta charset="UTF-8">
+<head>
+<title>A.html</title>
+<script src="cordova.js"></script>
+<script>
+	//document.addEventListener("deviceready", onDeviceReady, false);
+	function testA() {
+
+		var ref = cordova.InAppBrowser.open('B.html', '_blank',
+				'location=yes');
+		ref.addEventListener('loadstart', function() {
+			//alert(event.url);
+		});
+	}
+	
+	function getA() {
+		Jump("B.html");
+	}
+
+	function getD(){
+		xinyuNewBrowser("A.html");
+	}
+	function getE(){
+		xinyuNewBrowser("A.html","testData");
+	}
+	
+	function testBadger() {
+		navigator.getxgbadgeplugin.setXGBadge('2');
+	}
+	
+	
+	function testQRCord() {
+		alert(navigator);
+		navigator.qrcodeplugin.openQRCode("testData");
+	}
+
+	function appState(data) {
+		if(data == "0") {
+			navigator.getxgbadgeplugin.setXGBadge('2');
+		}
+		
+	}
+
+	
+	function testData(json) {
+		alert(json);
+	}
+	function appState(json) {
+		alert(json);
+	}
+	
+</script>
+</head>
+<body>
+	<a href="javascript:testA()">testCCCCCCCCCCCCCCCCCCCCCCCCCCc </a>
+	
+</body>
+</html>

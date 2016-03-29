@@ -1,0 +1,51 @@
+<html>
+<meta http-equiv="Content-Security-Policy" content="">
+<meta charset="UTF-8">
+<head>
+<title>A.html</title>
+<script src="cordova.js"></script>
+<script src="xinyuNative.js"></script>
+<script src="cordova_plugins.js"></script>
+<script>
+	function testA() {
+		navigator.startLuckViewPlugin.startLuckView("荀彧", '70',
+				"http://test.xinyusoft.com:8080/uuFinancialPlanner");
+	}
+
+	function testB() {
+		getDeviceId(success, error);
+	}
+
+	function success(data) {
+		//alert(data);
+	}
+
+	function error(data) {
+		alert(data);
+	}
+
+	function testC() {
+		xinyuNewBrowser("testLuckView.html", "success");
+	}
+
+	function testD() {
+		closeNewBrowser();
+	}
+</script>
+</head>
+<body>
+	<a href="javascript:testA()">testLuckView </a>
+	<br />
+	<br />
+	<br />
+	<a href="javascript:testB()">getDeviceId </a>
+	<br />
+	<br />
+	<br />
+	<a href="javascript:testC()">xinyuNewBrowser</a>
+	<br />
+	<br />
+	<br />
+	<a href="javascript:testD()">closeNewBrowser</a>
+</body>
+</html>

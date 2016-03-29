@@ -1,0 +1,201 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/luck_main_rl"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/xinyusoft_luckview_background"
+    android:clipToPadding="true"
+    android:fitsSystemWindows="true" >
+
+    <TextView
+        android:id="@+id/words"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="6dp"
+        android:text="股票幸运大转盘"
+        android:textColor="#f7c34b"
+        android:textSize="35sp" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/words"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/luckview_datadesc"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:gravity="center"
+            android:text="已随机抽取今日的300只股票行情"
+            android:textColor="@color/white"
+            android:textSize="15sp" />
+
+        <RelativeLayout
+            android:id="@+id/luckview_huangu_rl"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:visibility="invisible" >
+
+            <ImageView
+                android:id="@+id/luckview_changedata"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/xinyusoft_luckview_changestock" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/xinyusoft_luckview_huanggu" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <com.xinyusoft.xshell.luckview.LuckyPanView
+        android:id="@+id/id_luckypan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linearLayout1"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/xinyusoft_luckview_mypan" />
+
+    <ImageView
+        android:id="@+id/id_start_bgrotate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linearLayout1"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/xinyusoft_luckview_den2" />
+
+    <LinearLayout
+        android:id="@+id/luckview_main_ll_daohanlan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/luckview_moreluck"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="1dp"
+            android:layout_weight="1"
+            android:drawablePadding="5dp"
+            android:drawableTop="@drawable/xinyusoft_luckview_moreluck"
+            android:gravity="center"
+            android:paddingTop="5dp"
+            android:text="更多抽奖"
+            android:textColor="@color/white"
+            android:textSize="10sp" />
+
+        <TextView
+            android:id="@+id/luckview_sharemyfriend"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="1dp"
+            android:layout_weight="1"
+            android:drawablePadding="5dp"
+            android:drawableTop="@drawable/xinyusoft_luckview_sharefriend"
+            android:gravity="center"
+            android:paddingTop="5dp"
+            android:text="转发给好友"
+            android:textColor="@color/white"
+            android:textSize="10sp" />
+
+        <TextView
+            android:id="@+id/luck_share"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="1dp"
+            android:layout_weight="1"
+            android:drawablePadding="5dp"
+            android:drawableTop="@drawable/xinyusoft_luckview_friend"
+            android:gravity="center"
+            android:paddingTop="5dp"
+            android:text="分享到朋友圈"
+            android:textColor="@color/white"
+            android:textSize="10sp" />
+
+        <TextView
+            android:id="@+id/luckview_score"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:drawablePadding="5dp"
+            android:drawableTop="@drawable/xinyusoft_luckview_myscore"
+            android:gravity="center"
+            android:paddingTop="5dp"
+            android:text="我的积分"
+            android:textColor="@color/white"
+            android:textSize="10sp" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/luckview_main_ll_daohanlan"
+        android:layout_below="@+id/id_luckypan" >
+
+        <RelativeLayout
+            android:id="@+id/luckview_show_timeandbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:visibility="invisible" >
+
+            <TextView
+                android:id="@+id/show"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/xinyusoft_luckview_timebg"
+                android:gravity="center"
+                android:text="00:00"
+                android:textColor="#434343"
+                android:textSize="25sp" />
+
+            <ImageView
+                android:id="@+id/id_start_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/show"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/xinyusoft_luckview_button1" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/luckview_tomorrow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="明日再抽吧"
+            android:textColor="#f7c34b"
+            android:visibility="invisible"
+            android:textSize="30sp" />
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/luck_music"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/linearLayout1"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/xinyusoft_luckview_music"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/luckivew_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/words"
+        android:layout_marginRight="5dp"
+        android:layout_toLeftOf="@+id/words"
+        android:src="@drawable/xinyusoft_luckview_backbg" />
+
+</RelativeLayout>

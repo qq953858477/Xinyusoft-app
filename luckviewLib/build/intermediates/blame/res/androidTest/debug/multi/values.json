@@ -1,0 +1,526 @@
+[
+    {
+        "outputFile": "D:\\Android\\app\\XshellLib\\Xinyusoft\\luckviewLib\\build\\intermediates\\res\\merged\\androidTest\\debug\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 58,
+                    "endOffset": 109
+                },
+                "from": {
+                    "file": "D:\\Android\\app\\XshellLib\\Xinyusoft\\luckviewLib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 58,
+                        "endOffset": 109
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 114,
+                    "endColumn": 41,
+                    "endOffset": 151
+                },
+                "from": {
+                    "file": "D:\\Android\\app\\XshellLib\\Xinyusoft\\luckviewLib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 114,
+                        "endColumn": 41,
+                        "endOffset": 151
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 156,
+                    "endColumn": 47,
+                    "endOffset": 199
+                },
+                "from": {
+                    "file": "D:\\Android\\app\\XshellLib\\Xinyusoft\\luckviewLib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 156,
+                        "endColumn": 47,
+                        "endOffset": 199
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 204,
+                    "endColumn": 53,
+                    "endOffset": 253
+                },
+                "from": {
+                    "file": "D:\\Android\\app\\XshellLib\\Xinyusoft\\luckviewLib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 204,
+                        "endColumn": 53,
+                        "endOffset": 253
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 258,
+                    "endColumn": 44,
+                    "endOffset": 298
+                },
+                "from": {
+                    "file": "D:\\Android\\app\\XshellLib\\Xinyusoft\\luckviewLib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 258,
+                        "endColumn": 44,
+                        "endOffset": 298
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 303,
+                    "endColumn": 49,
+                    "endOffset": 348
+                },
+                "from": {
+                    "file": "D:\\Android\\app\\XshellLib\\Xinyusoft\\luckviewLib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 303,
+                        "endColumn": 49,
+                        "endOffset": 348
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 353,
+                    "endColumn": 54,
+                    "endOffset": 403
+                },
+                "from": {
+                    "file": "D:\\Android\\app\\XshellLib\\Xinyusoft\\luckviewLib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 353,
+                        "endColumn": 54,
+                        "endOffset": 403
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 408,
+                    "endColumn": 49,
+                    "endOffset": 453
+                },
+                "from": {
+                    "file": "D:\\Android\\app\\XshellLib\\Xinyusoft\\luckviewLib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 408,
+                        "endColumn": 49,
+                        "endOffset": 453
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 458,
+                    "endColumn": 51,
+                    "endOffset": 505
+                },
+                "from": {
+                    "file": "D:\\Android\\app\\XshellLib\\Xinyusoft\\luckviewLib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 458,
+                        "endColumn": 51,
+                        "endOffset": 505
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 510,
+                    "endColumn": 57,
+                    "endOffset": 563
+                },
+                "from": {
+                    "file": "D:\\Android\\app\\XshellLib\\Xinyusoft\\luckviewLib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 510,
+                        "endColumn": 57,
+                        "endOffset": 563
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 568,
+                    "endColumn": 59,
+                    "endOffset": 623
+                },
+                "from": {
+                    "file": "D:\\Android\\app\\XshellLib\\Xinyusoft\\luckviewLib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 568,
+                        "endColumn": 59,
+                        "endOffset": 623
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 628,
+                    "endColumn": 55,
+                    "endOffset": 679
+                },
+                "from": {
+                    "file": "D:\\Android\\app\\XshellLib\\Xinyusoft\\luckviewLib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 628,
+                        "endColumn": 55,
+                        "endOffset": 679
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 684,
+                    "endColumn": 48,
+                    "endOffset": 728
+                },
+                "from": {
+                    "file": "D:\\Android\\app\\XshellLib\\Xinyusoft\\luckviewLib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 684,
+                        "endColumn": 48,
+                        "endOffset": 728
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 733,
+                    "endColumn": 39,
+                    "endOffset": 768
+                },
+                "from": {
+                    "file": "D:\\Android\\app\\XshellLib\\Xinyusoft\\luckviewLib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 733,
+                        "endColumn": 39,
+                        "endOffset": 768
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 16,
+                    "startColumn": 4,
+                    "startOffset": 773,
+                    "endColumn": 39,
+                    "endOffset": 808
+                },
+                "from": {
+                    "file": "D:\\Android\\app\\XshellLib\\Xinyusoft\\luckviewLib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 773,
+                        "endColumn": 39,
+                        "endOffset": 808
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 18,
+                    "startColumn": 4,
+                    "startOffset": 1488,
+                    "endColumn": 57,
+                    "endOffset": 1541
+                },
+                "from": {
+                    "file": "D:\\Android\\app\\XshellLib\\Xinyusoft\\luckviewLib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 1488,
+                        "endColumn": 57,
+                        "endOffset": 1541
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 19,
+                    "startColumn": 4,
+                    "startOffset": 1546,
+                    "endColumn": 55,
+                    "endOffset": 1597
+                },
+                "from": {
+                    "file": "D:\\Android\\app\\XshellLib\\Xinyusoft\\luckviewLib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 1546,
+                        "endColumn": 55,
+                        "endOffset": 1597
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 20,
+                    "startColumn": 4,
+                    "startOffset": 1602,
+                    "endColumn": 56,
+                    "endOffset": 1654
+                },
+                "from": {
+                    "file": "D:\\Android\\app\\XshellLib\\Xinyusoft\\luckviewLib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 4,
+                        "startOffset": 1602,
+                        "endColumn": 56,
+                        "endOffset": 1654
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 21,
+                    "startColumn": 4,
+                    "startOffset": 1659,
+                    "endColumn": 65,
+                    "endOffset": 1720
+                },
+                "from": {
+                    "file": "D:\\Android\\app\\XshellLib\\Xinyusoft\\luckviewLib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 21,
+                        "startColumn": 4,
+                        "startOffset": 1659,
+                        "endColumn": 65,
+                        "endOffset": 1720
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 22,
+                    "startColumn": 4,
+                    "startOffset": 1725,
+                    "endColumn": 133,
+                    "endOffset": 1854
+                },
+                "from": {
+                    "file": "D:\\Android\\app\\XshellLib\\Xinyusoft\\luckviewLib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 22,
+                        "startColumn": 4,
+                        "startOffset": 1725,
+                        "endColumn": 133,
+                        "endOffset": 1854
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 23,
+                    "startColumn": 4,
+                    "startOffset": 1859,
+                    "endColumn": 65,
+                    "endOffset": 1920
+                },
+                "from": {
+                    "file": "D:\\Android\\app\\XshellLib\\Xinyusoft\\luckviewLib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 23,
+                        "startColumn": 4,
+                        "startOffset": 1859,
+                        "endColumn": 65,
+                        "endOffset": 1920
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 24,
+                    "startColumn": 4,
+                    "startOffset": 1925,
+                    "endColumn": 88,
+                    "endOffset": 2009
+                },
+                "from": {
+                    "file": "D:\\Android\\app\\XshellLib\\Xinyusoft\\luckviewLib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 24,
+                        "startColumn": 4,
+                        "startOffset": 1925,
+                        "endColumn": 88,
+                        "endOffset": 2009
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 25,
+                    "startColumn": 4,
+                    "startOffset": 2014,
+                    "endColumn": 151,
+                    "endOffset": 2161
+                },
+                "from": {
+                    "file": "D:\\Android\\app\\XshellLib\\Xinyusoft\\luckviewLib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 25,
+                        "startColumn": 4,
+                        "startOffset": 2014,
+                        "endColumn": 151,
+                        "endOffset": 2161
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 26,
+                    "startColumn": 4,
+                    "startOffset": 2166,
+                    "endColumn": 83,
+                    "endOffset": 2245
+                },
+                "from": {
+                    "file": "D:\\Android\\app\\XshellLib\\Xinyusoft\\luckviewLib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 26,
+                        "startColumn": 4,
+                        "startOffset": 2166,
+                        "endColumn": 83,
+                        "endOffset": 2245
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 27,
+                    "startColumn": 4,
+                    "startOffset": 2250,
+                    "endLine": 33,
+                    "endColumn": 12,
+                    "endOffset": 2536
+                },
+                "from": {
+                    "file": "D:\\Android\\app\\XshellLib\\Xinyusoft\\luckviewLib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 27,
+                        "startColumn": 4,
+                        "startOffset": 2250,
+                        "endLine": 33,
+                        "endColumn": 12,
+                        "endOffset": 2536
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 34,
+                    "startColumn": 4,
+                    "startOffset": 2541,
+                    "endLine": 36,
+                    "endColumn": 12,
+                    "endOffset": 2696
+                },
+                "from": {
+                    "file": "D:\\Android\\app\\XshellLib\\Xinyusoft\\luckviewLib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 34,
+                        "startColumn": 4,
+                        "startOffset": 2541,
+                        "endLine": 36,
+                        "endColumn": 12,
+                        "endOffset": 2696
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 37,
+                    "startColumn": 4,
+                    "startOffset": 2701,
+                    "endLine": 41,
+                    "endColumn": 12,
+                    "endOffset": 3007
+                },
+                "from": {
+                    "file": "D:\\Android\\app\\XshellLib\\Xinyusoft\\luckviewLib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 37,
+                        "startColumn": 4,
+                        "startOffset": 2701,
+                        "endLine": 41,
+                        "endColumn": 12,
+                        "endOffset": 3007
+                    }
+                }
+            }
+        ]
+    }
+]

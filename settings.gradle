@@ -1,0 +1,3 @@
+include ':FragmentTabLibrary', ':CordovaLib', ':testlcs-cordova', ':XshellLib', ':myapplication', ':zhlcs-cordova', ':gengtoubao-cordova'
+include ':bDIntegrationSDK_LibProject'
+include ':luckviewLib'

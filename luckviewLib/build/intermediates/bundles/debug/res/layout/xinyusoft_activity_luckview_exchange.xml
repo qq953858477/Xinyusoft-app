@@ -1,0 +1,44 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:clipToPadding="true"
+    android:fitsSystemWindows="true" >
+
+    <include layout="@layout/xinyusoft_item_luckview_title"  android:id="@+id/luckview_title_rl"/>
+
+    <RelativeLayout
+        android:layout_below="@+id/luckview_title_rl"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <com.xinyusoft.xshell.luckview.widget.PagerSlidingTabStrip
+            android:id="@+id/tabs"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:background="@android:color/white"
+            app:pstsDividerColor="@android:color/transparent"
+            app:pstsIndicatorColor="@color/luckview_title"
+            app:pstsIndicatorHeight="2dp"
+            app:pstsShouldExpand="true"
+            app:pstsTabBackground="@drawable/background_tab"
+            app:pstsUnderlineHeight="2dp"
+            app:selectedTabTextColor="@color/luckview_title" />
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/pager"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tabs" />
+    </RelativeLayout>
+
+    <ProgressBar
+        android:id="@+id/progressBar1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true" />
+
+</RelativeLayout>

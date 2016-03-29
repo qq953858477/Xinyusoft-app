@@ -1,0 +1,71 @@
+<html>
+<meta http-equiv="Content-Security-Policy"
+	content="">
+<head>
+<title>A.html</title>
+<script src="cordova.js"></script>
+<script src="cordova_plugins.js"></script>
+<script src="xinyuNative.js"></script>
+<script>
+	//document.addEventListener("deviceready", onDeviceReady, false);
+	function testA() {
+
+		var ref = cordova.InAppBrowser.open('B.html', '_blank',
+				'location=yes');
+		ref.addEventListener('loadstart', function() {
+			//alert(event.url);
+		});
+	}
+	
+	function successSocket(json) {
+		navigator.websocketplugin.sendMessage("testData",null,"cmd=hq.getsnapshot&code=sz000001");
+	}
+	
+	function getA() {
+		navigator.websocketplugin.openSocket("successSocket",null,"ws://121.40.129.195:9999/echo");
+	}
+
+	function getB(){
+		navigator.websocketplugin.sendMessage("testData",null,"cmd=hq.getsnapshot&code=sz000001");
+	}
+	function getC(){
+		navigator.websocketplugin.closeSocket(null,null);
+	}
+	
+	function getD(){
+		xinyuNewBrowser("testWebSocket2.html");
+	}
+	
+	function testBadger() {
+		navigator.getxgbadgeplugin.setXGBadge('2');
+	}
+
+	function appState(data) {
+		if(data == "0") {
+			navigator.getxgbadgeplugin.setXGBadge('2');
+		}
+		
+	}
+
+	
+	function testData(json) {
+		alert(json);
+	}
+</script>
+</head>
+<body>
+	<a href="javascript:getA()">open </a>
+	<br/>
+	<br/>
+	<a href="javascript:getB()">sendMessage</a>
+	<br/>
+	<br/>
+	<a href="javascript:getC()">close</a>
+	<br/>
+	<br/>
+	<a href="javascript:getD()">openNewbrowser</a>
+	<br/>
+	<br/>
+	<a href="javascript:testBadger()">testBadger</a>
+</body>
+</html>

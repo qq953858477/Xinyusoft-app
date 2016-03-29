@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "D:\\Android\\app\\XshellLib\\Xinyusoft\\FragmentTabLibrary\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\vpi__tab_selected_pressed_holo.9.png",
+        "source": "D:\\Android\\app\\XshellLib\\Xinyusoft\\FragmentTabLibrary\\res\\drawable-hdpi\\vpi__tab_selected_pressed_holo.9.png"
+    },
+    {
+        "merged": "D:\\Android\\app\\XshellLib\\Xinyusoft\\FragmentTabLibrary\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\vpi__tab_unselected_pressed_holo.9.png",
+        "source": "D:\\Android\\app\\XshellLib\\Xinyusoft\\FragmentTabLibrary\\res\\drawable-hdpi\\vpi__tab_unselected_pressed_holo.9.png"
+    },
+    {
+        "merged": "D:\\Android\\app\\XshellLib\\Xinyusoft\\FragmentTabLibrary\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\vpi__tab_unselected_focused_holo.9.png",
+        "source": "D:\\Android\\app\\XshellLib\\Xinyusoft\\FragmentTabLibrary\\res\\drawable-hdpi\\vpi__tab_unselected_focused_holo.9.png"
+    },
+    {
+        "merged": "D:\\Android\\app\\XshellLib\\Xinyusoft\\FragmentTabLibrary\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\vpi__tab_unselected_holo.9.png",
+        "source": "D:\\Android\\app\\XshellLib\\Xinyusoft\\FragmentTabLibrary\\res\\drawable-hdpi\\vpi__tab_unselected_holo.9.png"
+    },
+    {
+        "merged": "D:\\Android\\app\\XshellLib\\Xinyusoft\\FragmentTabLibrary\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\vpi__tab_selected_focused_holo.png",
+        "source": "D:\\Android\\app\\XshellLib\\Xinyusoft\\FragmentTabLibrary\\res\\drawable-hdpi\\vpi__tab_selected_focused_holo.png"
+    },
+    {
+        "merged": "D:\\Android\\app\\XshellLib\\Xinyusoft\\FragmentTabLibrary\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\vpi__tab_selected_holo.9.png",
+        "source": "D:\\Android\\app\\XshellLib\\Xinyusoft\\FragmentTabLibrary\\res\\drawable-hdpi\\vpi__tab_selected_holo.9.png"
+    },
+    {
+        "merged": "D:\\Android\\app\\XshellLib\\Xinyusoft\\FragmentTabLibrary\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\manage_pct_delete.png",
+        "source": "D:\\Android\\app\\XshellLib\\Xinyusoft\\FragmentTabLibrary\\res\\drawable-hdpi\\manage_pct_delete.png"
+    }
+]

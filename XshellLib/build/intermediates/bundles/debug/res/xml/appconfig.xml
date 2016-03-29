@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='utf-8'?>
+<config>
+
+    <html-update-time time="201601151811" />
+
+    <wxapp-id id="wxa7085f7f107e37dd" />
+
+    <wxapp-secret secret="715a059d44b9547966df7dfc72d315ab" />
+    <android>
+        <app-update-time time="201512111643" />
+
+        <app-guide name="launch_image_port" />
+
+        <class-home path="com.xinyusoft.xshelllib.ui.HomePageActivity" />
+    </android>
+
+    <address-config>
+        <address
+            name="html_url_list"
+            description="html更新列表(用于查询html是否要更新)  UULCS_FILE_TEST "
+            value="http://192.168.0.204/xversion/ESBServlet?command=vms.getChangedListAction&amp;appname=UULCS_FILE_TEST&amp;time=" />
+        <address
+            name="app_url_download"
+            description="app下载地址"
+            value="http://192.168.0.204/xversion/mytest/uulcs.apk" />
+        <address
+            name="app_url_list"
+            description="app更新列表(用于查询app是否要更新)"
+            value="http://192.168.0.204/xversion/ESBServlet?command=vms.getChangedListAction&amp;appname=mytest&amp;time=" />
+        <address
+            name="html_url_download"
+            description="html下载地址(需要html更新列表获得zip的名字)"
+            value="http://192.168.0.204/xversion/" />
+        <address
+            name="app_url_content"
+            description="html下载地址(需要html更新列表获得zip的名字)"
+            value="http://121.40.148.145/ESBServlet?command=vms.getAccessListAction&amp;appname=UULCS_ANDROID" />
+        
+    </address-config>
+
+</config>

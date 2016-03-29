@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "D:\\Android\\app\\XshellLib\\Xinyusoft\\XshellLib\\build\\intermediates\\res\\merged\\androidTest\\debug\\xml\\xinyusoft_letter.xml",
+        "source": "D:\\Android\\app\\XshellLib\\Xinyusoft\\XshellLib\\build\\intermediates\\bundles\\debug\\res\\xml\\xinyusoft_letter.xml"
+    },
+    {
+        "merged": "D:\\Android\\app\\XshellLib\\Xinyusoft\\XshellLib\\build\\intermediates\\res\\merged\\androidTest\\debug\\xml\\xinyusoft_numeric.xml",
+        "source": "D:\\Android\\app\\XshellLib\\Xinyusoft\\XshellLib\\build\\intermediates\\bundles\\debug\\res\\xml\\xinyusoft_numeric.xml"
+    },
+    {
+        "merged": "D:\\Android\\app\\XshellLib\\Xinyusoft\\XshellLib\\build\\intermediates\\res\\merged\\androidTest\\debug\\xml\\xinyusoft_symbols.xml",
+        "source": "D:\\Android\\app\\XshellLib\\Xinyusoft\\XshellLib\\build\\intermediates\\bundles\\debug\\res\\xml\\xinyusoft_symbols.xml"
+    },
+    {
+        "merged": "D:\\Android\\app\\XshellLib\\Xinyusoft\\XshellLib\\build\\intermediates\\res\\merged\\androidTest\\debug\\xml\\config.xml",
+        "source": "D:\\Android\\app\\XshellLib\\Xinyusoft\\XshellLib\\build\\intermediates\\bundles\\debug\\res\\xml\\config.xml"
+    },
+    {
+        "merged": "D:\\Android\\app\\XshellLib\\Xinyusoft\\XshellLib\\build\\intermediates\\res\\merged\\androidTest\\debug\\xml\\appconfig.xml",
+        "source": "D:\\Android\\app\\XshellLib\\Xinyusoft\\XshellLib\\build\\intermediates\\bundles\\debug\\res\\xml\\appconfig.xml"
+    },
+    {
+        "merged": "D:\\Android\\app\\XshellLib\\Xinyusoft\\XshellLib\\build\\intermediates\\res\\merged\\androidTest\\debug\\xml\\xinyusoft_price.xml",
+        "source": "D:\\Android\\app\\XshellLib\\Xinyusoft\\XshellLib\\build\\intermediates\\bundles\\debug\\res\\xml\\xinyusoft_price.xml"
+    }
+]

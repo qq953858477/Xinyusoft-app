@@ -1,0 +1,163 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget
+    id="com.example.hello"
+    version="0.0.1"
+     >
+
+    <preference
+        name="loglevel"
+        value="DEBUG" />
+
+    <feature name="Whitelist" >
+        <param
+            name="android-package"
+            value="org.apache.cordova.whitelist.WhitelistPlugin" />
+        <param
+            name="onload"
+            value="true" />
+    </feature>
+    <feature name="NetworkStatus" >
+        <param
+            name="android-package"
+            value="org.apache.cordova.networkinformation.NetworkManager" />
+    </feature>
+    <feature name="NativePlugin" >
+        <param
+            name="android-package"
+            value="com.xinyusoft.xshelllib.plugin.NativePlugin" />
+    </feature>
+    <feature name="WeiXinPlugin" >
+        <param
+            name="android-package"
+            value="com.xinyusoft.xshelllib.plugin.WeiXinPlugin" />
+    </feature>
+    <feature name="KeyboardPlugin" >
+        <param
+            name="android-package"
+            value="com.xinyusoft.xshelllib.plugin.KeyboardPlugin" />
+    </feature>
+    <feature name="LocationPlugin" >
+        <param
+            name="android-package"
+            value="com.xinyusoft.xshelllib.plugin.BaiduMapPlugin" />
+    </feature>
+    <feature name="RecordPlugin" >
+        <param
+            name="android-package"
+            value="com.xinyusoft.xshelllib.plugin.RecordPlugin" />
+    </feature>
+    <feature name="FileOperationPlugin" >
+        <param
+            name="android-package"
+            value="com.xinyusoft.xshelllib.plugin.FileOperationPlugin" />
+    </feature>
+    <feature name="XingePlugin" >
+        <param
+            name="android-package"
+            value="com.xinyusoft.xshelllib.plugin.XingePlugin" />
+    </feature>
+    <feature name="EncryptPlugin" >
+        <param
+            name="android-package"
+            value="com.xinyusoft.xshelllib.plugin.EncryptPlugin" />
+    </feature>
+    <feature name="GetXgBadgePlugin" >
+        <param
+            name="android-package"
+            value="com.xinyusoft.xshelllib.plugin.GetXgBadgePlugin" />
+    </feature>
+    <feature name="WebSocketPlugin" >
+        <param
+            name="android-package"
+            value="com.xinyusoft.xshelllib.plugin.WebSocketPlugin" />
+    </feature>
+    <feature name="QRCodePlugin" >
+        <param
+            name="android-package"
+            value="com.xinyusoft.xshelllib.plugin.QRCodePlugin" />
+    </feature>
+    <feature name="LuckViewPlugin" >
+        <param
+            name="android-package"
+            value="com.xinyusoft.xshelllib.plugin.LuckViewPlugin" />
+    </feature>
+    <feature name="SqliteUserPlugin" >
+        <param
+            name="android-package"
+            value="com.xinyusoft.xshelllib.plugin.SqliteUserPlugin" />
+    </feature>
+
+    <allow-intent href="market:*" />
+
+    <name>
+HelloWorld
+    </name>
+
+    <description>
+        A sample Apache Cordova application that responds to the deviceready event.
+    </description>
+
+    <author
+        email="dev@cordova.apache.org"
+        href="http://cordova.io" >
+        Apache Cordova Team
+    </author>
+
+    <content src="index.html" />
+
+    <access origin="*" />
+
+    <allow-navigation href="*" />
+    <allow-navigation href="file://*" />
+
+    <allow-intent href="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+
+    <feature name="SplashScreen" >
+        <param
+            name="android-package"
+            value="org.apache.cordova.splashscreen.SplashScreen" />
+        <param
+            name="onload"
+            value="true" />
+    </feature>
+    <feature name="InAppBrowser" >
+        <param
+            name="android-package"
+            value="org.apache.cordova.inappbrowser.InAppBrowser" />
+    </feature>
+    <feature name="Notification" >
+        <param
+            name="android-package"
+            value="org.apache.cordova.dialogs.Notification" />
+    </feature>
+
+    <preference
+        name="LoadUrlTimeoutValue"
+        value="60000000" />
+    <!--
+         <preference
+        name="SplashScreen"
+        value="ic_excess" />
+    -->
+    <preference
+        name="SplashScreenDelay"
+        value="1000" />
+
+    <feature name="SQLitePlugin" >
+        <param
+            name="android-package"
+            value="io.liteglue.SQLitePlugin" />
+    </feature>
+    <feature name="PayPasswordPlugin" >
+        <param
+            name="android-package"
+            value="com.xinyusoft.xshelllib.plugin.PayPasswordPlugin" />
+    </feature>
+
+</widget>

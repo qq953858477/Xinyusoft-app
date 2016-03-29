@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "D:\\Android\\app\\XshellLib\\Xinyusoft\\XshellLib\\build\\intermediates\\res\\merged\\androidTest\\debug\\color\\vpi__light_theme.xml",
+        "source": "D:\\Android\\app\\XshellLib\\Xinyusoft\\XshellLib\\build\\intermediates\\exploded-aar\\Xinyusoft\\FragmentTabLibrary\\unspecified\\res\\color\\vpi__light_theme.xml"
+    },
+    {
+        "merged": "D:\\Android\\app\\XshellLib\\Xinyusoft\\XshellLib\\build\\intermediates\\res\\merged\\androidTest\\debug\\color\\vpi__dark_theme.xml",
+        "source": "D:\\Android\\app\\XshellLib\\Xinyusoft\\XshellLib\\build\\intermediates\\exploded-aar\\Xinyusoft\\FragmentTabLibrary\\unspecified\\res\\color\\vpi__dark_theme.xml"
+    }
+]

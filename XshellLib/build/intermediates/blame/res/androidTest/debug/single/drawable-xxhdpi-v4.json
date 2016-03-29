@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "D:\\Android\\app\\XshellLib\\Xinyusoft\\XshellLib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4\\ic_launcher.png",
+        "source": "D:\\Android\\app\\XshellLib\\Xinyusoft\\XshellLib\\build\\intermediates\\exploded-aar\\Xinyusoft\\luckviewLib\\unspecified\\res\\drawable-xxhdpi-v4\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\Android\\app\\XshellLib\\Xinyusoft\\XshellLib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4\\xinyusoft_ic_action_remove.png",
+        "source": "D:\\Android\\app\\XshellLib\\Xinyusoft\\XshellLib\\build\\intermediates\\bundles\\debug\\res\\drawable-xxhdpi-v4\\xinyusoft_ic_action_remove.png"
+    },
+    {
+        "merged": "D:\\Android\\app\\XshellLib\\Xinyusoft\\XshellLib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4\\xinyusoft_ic_action_previous_item.png",
+        "source": "D:\\Android\\app\\XshellLib\\Xinyusoft\\XshellLib\\build\\intermediates\\bundles\\debug\\res\\drawable-xxhdpi-v4\\xinyusoft_ic_action_previous_item.png"
+    },
+    {
+        "merged": "D:\\Android\\app\\XshellLib\\Xinyusoft\\XshellLib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4\\xinyusoft_ic_action_next_item.png",
+        "source": "D:\\Android\\app\\XshellLib\\Xinyusoft\\XshellLib\\build\\intermediates\\bundles\\debug\\res\\drawable-xxhdpi-v4\\xinyusoft_ic_action_next_item.png"
+    }
+]

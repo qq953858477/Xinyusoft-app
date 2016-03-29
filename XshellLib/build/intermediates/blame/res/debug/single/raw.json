@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "D:\\Android\\app\\XshellLib\\Xinyusoft\\XshellLib\\build\\intermediates\\res\\merged\\debug\\raw\\test.mp3",
+        "source": "D:\\Android\\app\\XshellLib\\Xinyusoft\\XshellLib\\src\\main\\res\\raw\\test.mp3"
+    },
+    {
+        "merged": "D:\\Android\\app\\XshellLib\\Xinyusoft\\XshellLib\\build\\intermediates\\res\\merged\\debug\\raw\\beep.ogg",
+        "source": "D:\\Android\\app\\XshellLib\\Xinyusoft\\XshellLib\\src\\main\\res\\raw\\beep.ogg"
+    },
+    {
+        "merged": "D:\\Android\\app\\XshellLib\\Xinyusoft\\XshellLib\\build\\intermediates\\res\\merged\\debug\\raw\\start.mp3",
+        "source": "D:\\Android\\app\\XshellLib\\Xinyusoft\\XshellLib\\build\\intermediates\\exploded-aar\\Xinyusoft\\luckviewLib\\unspecified\\res\\raw\\start.mp3"
+    },
+    {
+        "merged": "D:\\Android\\app\\XshellLib\\Xinyusoft\\XshellLib\\build\\intermediates\\res\\merged\\debug\\raw\\end.wav",
+        "source": "D:\\Android\\app\\XshellLib\\Xinyusoft\\XshellLib\\build\\intermediates\\exploded-aar\\Xinyusoft\\luckviewLib\\unspecified\\res\\raw\\end.wav"
+    },
+    {
+        "merged": "D:\\Android\\app\\XshellLib\\Xinyusoft\\XshellLib\\build\\intermediates\\res\\merged\\debug\\raw\\xinyusoft_prompt.wav",
+        "source": "D:\\Android\\app\\XshellLib\\Xinyusoft\\XshellLib\\src\\main\\res\\raw\\xinyusoft_prompt.wav"
+    }
+]

@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='utf-8'?>
+<config>
+
+    <html-update-time time="201603111245" />
+
+    <wxapp-id id="wxda344fb03067428c" />
+
+    <wxapp-secret secret="6b6e7f2cb19541b9eefa8bd9e0aef294" />
+    <android>
+        <app-update-time time="201603211850" />
+
+        <app-guide name="launch_image_port" />
+
+        <class-home path="com.xinyusoft.zhlcs.TestActivity" />
+    </android>
+
+    <address-config>
+        <address
+            name="html_url_list"
+            description="html更新列表(用于查询html是否要更新)   192.168.0.204/xversion/   UULCS_FILE_TEST"
+            value="http://121.40.148.145/ESBServlet?command=vms.getChangedListAction&amp;appname=LCS_FILE&amp;time=" />
+        <address
+            name="app_url_download"
+            description="app下载地址"
+            value="http://121.40.148.145/LCS_ANDROID/xrklcs.apk" />
+        <address
+            name="app_url_list"
+            description="app更新列表(用于查询app是否要更新)"
+            value="http://121.40.148.145/ESBServlet?command=vms.getChangedListAction&amp;appname=LCS_ANDROID&amp;time=" />
+        <address
+            name="html_url_download"
+            description="html下载地址(需要html更新列表获得zip的名字)"
+            value="http://121.40.148.145/" />
+        
+        <address
+            name="app_url_content"
+            description="html下载地址(需要html更新列表获得zip的名字)"
+            value="http://121.40.148.145/ESBServlet?command=vms.getAccessListAction&amp;appname=LCS_ANDROID" />
+    </address-config>
+
+</config>

@@ -1,0 +1,60 @@
+<html>
+<meta http-equiv="Content-Security-Policy"
+	content="">
+<head>
+<title>A.html</title>
+<script src="js/cordova.js"></script>
+<script src="js/inappbrowser.js"></script>
+<script src="js/xinyuNative.js"></script>
+<script>
+	//document.addEventListener("deviceready", onDeviceReady, false);
+	function testA() {
+
+		var ref = cordova.InAppBrowser.open('B.html', '_blank',
+				'location=yes');
+		ref.addEventListener('loadstart', function() {
+			//alert(event.url);
+		});
+	}
+	
+	function getA() {
+		closeNewBrowser("{\"result\":\"asdfgg\"}");
+	}
+
+	function getA2() {
+		closeNewBrowser();
+	}
+
+	function getD(){
+		getDeviceId(null,null);
+		alert('b');
+	}
+
+	function testOpen(){
+		xinyuNewBrowser("A.html");
+	}
+
+	function testOpen1(){
+		xinyuNewBrowser("A.html","myTest");
+	}
+
+	function myTest(){
+		alert("test");
+	}
+</script>
+</head>
+<body>
+	<a href="javascript:testA()">testAAAAAAAAAAAAAAAAAAAAAAAAAAAA </a>
+	<input type="file">
+	<a href="javascript:getA()">close</a>
+	<br/>
+	<br/>
+	<a href="javascript:getA2()">close2</a>
+	<br/>
+	<br/>
+	<a href="javascript:testOpen()">testopen</a>
+	<br/>
+	<br/>
+	<a href="javascript:testOpen1()">testopenforResult</a>
+</body>
+</html>

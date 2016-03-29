@@ -1,0 +1,118 @@
+[
+    {
+        "merged": "D:\\Android\\app\\XshellLib\\Xinyusoft\\XshellLib\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\xinyusoft_skin_common_btn_green_disable.9.png",
+        "source": "D:\\Android\\app\\XshellLib\\Xinyusoft\\XshellLib\\src\\main\\res\\drawable-xhdpi\\xinyusoft_skin_common_btn_green_disable.9.png"
+    },
+    {
+        "merged": "D:\\Android\\app\\XshellLib\\Xinyusoft\\XshellLib\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\xinyusoft_lock_select.png",
+        "source": "D:\\Android\\app\\XshellLib\\Xinyusoft\\XshellLib\\src\\main\\res\\drawable-xhdpi\\xinyusoft_lock_select.png"
+    },
+    {
+        "merged": "D:\\Android\\app\\XshellLib\\Xinyusoft\\XshellLib\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\xinyusoft_skin_common_btn_red_unpressed.9.png",
+        "source": "D:\\Android\\app\\XshellLib\\Xinyusoft\\XshellLib\\src\\main\\res\\drawable-xhdpi\\xinyusoft_skin_common_btn_red_unpressed.9.png"
+    },
+    {
+        "merged": "D:\\Android\\app\\XshellLib\\Xinyusoft\\XshellLib\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\xinyusoft_gesture_create_grid_selected.png",
+        "source": "D:\\Android\\app\\XshellLib\\Xinyusoft\\XshellLib\\src\\main\\res\\drawable-xhdpi\\xinyusoft_gesture_create_grid_selected.png"
+    },
+    {
+        "merged": "D:\\Android\\app\\XshellLib\\Xinyusoft\\XshellLib\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\xinyusoft_luckview_button1.png",
+        "source": "D:\\Android\\app\\XshellLib\\Xinyusoft\\XshellLib\\build\\intermediates\\exploded-aar\\Xinyusoft\\luckviewLib\\unspecified\\res\\drawable-xhdpi-v4\\xinyusoft_luckview_button1.png"
+    },
+    {
+        "merged": "D:\\Android\\app\\XshellLib\\Xinyusoft\\XshellLib\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\xinyusoft_luckview_button4.png",
+        "source": "D:\\Android\\app\\XshellLib\\Xinyusoft\\XshellLib\\build\\intermediates\\exploded-aar\\Xinyusoft\\luckviewLib\\unspecified\\res\\drawable-xhdpi-v4\\xinyusoft_luckview_button4.png"
+    },
+    {
+        "merged": "D:\\Android\\app\\XshellLib\\Xinyusoft\\XshellLib\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\xinyusoft_skin_common_btn_green_pressed.9.png",
+        "source": "D:\\Android\\app\\XshellLib\\Xinyusoft\\XshellLib\\src\\main\\res\\drawable-xhdpi\\xinyusoft_skin_common_btn_green_pressed.9.png"
+    },
+    {
+        "merged": "D:\\Android\\app\\XshellLib\\Xinyusoft\\XshellLib\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\xinyusoft_ic_action_remove.png",
+        "source": "D:\\Android\\app\\XshellLib\\Xinyusoft\\XshellLib\\src\\main\\res\\drawable-xhdpi\\xinyusoft_ic_action_remove.png"
+    },
+    {
+        "merged": "D:\\Android\\app\\XshellLib\\Xinyusoft\\XshellLib\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\xinyusoft_lock_default.png",
+        "source": "D:\\Android\\app\\XshellLib\\Xinyusoft\\XshellLib\\src\\main\\res\\drawable-xhdpi\\xinyusoft_lock_default.png"
+    },
+    {
+        "merged": "D:\\Android\\app\\XshellLib\\Xinyusoft\\XshellLib\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\vpi__tab_unselected_pressed_holo.9.png",
+        "source": "D:\\Android\\app\\XshellLib\\Xinyusoft\\XshellLib\\build\\intermediates\\exploded-aar\\Xinyusoft\\FragmentTabLibrary\\unspecified\\res\\drawable-xhdpi-v4\\vpi__tab_unselected_pressed_holo.9.png"
+    },
+    {
+        "merged": "D:\\Android\\app\\XshellLib\\Xinyusoft\\XshellLib\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\vpi__tab_unselected_holo.9.png",
+        "source": "D:\\Android\\app\\XshellLib\\Xinyusoft\\XshellLib\\build\\intermediates\\exploded-aar\\Xinyusoft\\FragmentTabLibrary\\unspecified\\res\\drawable-xhdpi-v4\\vpi__tab_unselected_holo.9.png"
+    },
+    {
+        "merged": "D:\\Android\\app\\XshellLib\\Xinyusoft\\XshellLib\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\xinyusoft_skin_common_btn_green_normal.9.png",
+        "source": "D:\\Android\\app\\XshellLib\\Xinyusoft\\XshellLib\\src\\main\\res\\drawable-xhdpi\\xinyusoft_skin_common_btn_green_normal.9.png"
+    },
+    {
+        "merged": "D:\\Android\\app\\XshellLib\\Xinyusoft\\XshellLib\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\xinyusoft_ic_action_next_item.png",
+        "source": "D:\\Android\\app\\XshellLib\\Xinyusoft\\XshellLib\\src\\main\\res\\drawable-xhdpi\\xinyusoft_ic_action_next_item.png"
+    },
+    {
+        "merged": "D:\\Android\\app\\XshellLib\\Xinyusoft\\XshellLib\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\xinyusoft_skin_common_btn_red_disabled.9.png",
+        "source": "D:\\Android\\app\\XshellLib\\Xinyusoft\\XshellLib\\src\\main\\res\\drawable-xhdpi\\xinyusoft_skin_common_btn_red_disabled.9.png"
+    },
+    {
+        "merged": "D:\\Android\\app\\XshellLib\\Xinyusoft\\XshellLib\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\vpi__tab_selected_holo.9.png",
+        "source": "D:\\Android\\app\\XshellLib\\Xinyusoft\\XshellLib\\build\\intermediates\\exploded-aar\\Xinyusoft\\FragmentTabLibrary\\unspecified\\res\\drawable-xhdpi-v4\\vpi__tab_selected_holo.9.png"
+    },
+    {
+        "merged": "D:\\Android\\app\\XshellLib\\Xinyusoft\\XshellLib\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\xinyusoft_lock_select_wrong.png",
+        "source": "D:\\Android\\app\\XshellLib\\Xinyusoft\\XshellLib\\src\\main\\res\\drawable-xhdpi\\xinyusoft_lock_select_wrong.png"
+    },
+    {
+        "merged": "D:\\Android\\app\\XshellLib\\Xinyusoft\\XshellLib\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\xinyusoft_luckview_button3.png",
+        "source": "D:\\Android\\app\\XshellLib\\Xinyusoft\\XshellLib\\build\\intermediates\\exploded-aar\\Xinyusoft\\luckviewLib\\unspecified\\res\\drawable-xhdpi-v4\\xinyusoft_luckview_button3.png"
+    },
+    {
+        "merged": "D:\\Android\\app\\XshellLib\\Xinyusoft\\XshellLib\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\xinyusoft_luckview_button1_grey.png",
+        "source": "D:\\Android\\app\\XshellLib\\Xinyusoft\\XshellLib\\build\\intermediates\\exploded-aar\\Xinyusoft\\luckviewLib\\unspecified\\res\\drawable-xhdpi-v4\\xinyusoft_luckview_button1_grey.png"
+    },
+    {
+        "merged": "D:\\Android\\app\\XshellLib\\Xinyusoft\\XshellLib\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\xinyusoft_skin_common_btn_red_pressed.9.png",
+        "source": "D:\\Android\\app\\XshellLib\\Xinyusoft\\XshellLib\\src\\main\\res\\drawable-xhdpi\\xinyusoft_skin_common_btn_red_pressed.9.png"
+    },
+    {
+        "merged": "D:\\Android\\app\\XshellLib\\Xinyusoft\\XshellLib\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\xinyusoft_luckview_jfdh1.png",
+        "source": "D:\\Android\\app\\XshellLib\\Xinyusoft\\XshellLib\\build\\intermediates\\exploded-aar\\Xinyusoft\\luckviewLib\\unspecified\\res\\drawable-xhdpi-v4\\xinyusoft_luckview_jfdh1.png"
+    },
+    {
+        "merged": "D:\\Android\\app\\XshellLib\\Xinyusoft\\XshellLib\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\xinyusoft_ic_action_previous_item.png",
+        "source": "D:\\Android\\app\\XshellLib\\Xinyusoft\\XshellLib\\src\\main\\res\\drawable-xhdpi\\xinyusoft_ic_action_previous_item.png"
+    },
+    {
+        "merged": "D:\\Android\\app\\XshellLib\\Xinyusoft\\XshellLib\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\vpi__tab_unselected_focused_holo.9.png",
+        "source": "D:\\Android\\app\\XshellLib\\Xinyusoft\\XshellLib\\build\\intermediates\\exploded-aar\\Xinyusoft\\FragmentTabLibrary\\unspecified\\res\\drawable-xhdpi-v4\\vpi__tab_unselected_focused_holo.9.png"
+    },
+    {
+        "merged": "D:\\Android\\app\\XshellLib\\Xinyusoft\\XshellLib\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\xinyusoft_gesture_create_grid_bg.png",
+        "source": "D:\\Android\\app\\XshellLib\\Xinyusoft\\XshellLib\\src\\main\\res\\drawable-xhdpi\\xinyusoft_gesture_create_grid_bg.png"
+    },
+    {
+        "merged": "D:\\Android\\app\\XshellLib\\Xinyusoft\\XshellLib\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\xinyusoft_gesture_guide_pic.png",
+        "source": "D:\\Android\\app\\XshellLib\\Xinyusoft\\XshellLib\\src\\main\\res\\drawable-xhdpi\\xinyusoft_gesture_guide_pic.png"
+    },
+    {
+        "merged": "D:\\Android\\app\\XshellLib\\Xinyusoft\\XshellLib\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_launcher.png",
+        "source": "D:\\Android\\app\\XshellLib\\Xinyusoft\\XshellLib\\src\\main\\res\\drawable-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\Android\\app\\XshellLib\\Xinyusoft\\XshellLib\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\xinyusoft_luckview_button2.png",
+        "source": "D:\\Android\\app\\XshellLib\\Xinyusoft\\XshellLib\\build\\intermediates\\exploded-aar\\Xinyusoft\\luckviewLib\\unspecified\\res\\drawable-xhdpi-v4\\xinyusoft_luckview_button2.png"
+    },
+    {
+        "merged": "D:\\Android\\app\\XshellLib\\Xinyusoft\\XshellLib\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\vpi__tab_selected_pressed_holo.9.png",
+        "source": "D:\\Android\\app\\XshellLib\\Xinyusoft\\XshellLib\\build\\intermediates\\exploded-aar\\Xinyusoft\\FragmentTabLibrary\\unspecified\\res\\drawable-xhdpi-v4\\vpi__tab_selected_pressed_holo.9.png"
+    },
+    {
+        "merged": "D:\\Android\\app\\XshellLib\\Xinyusoft\\XshellLib\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\xinyusoft_luckview_jfdh2.png",
+        "source": "D:\\Android\\app\\XshellLib\\Xinyusoft\\XshellLib\\build\\intermediates\\exploded-aar\\Xinyusoft\\luckviewLib\\unspecified\\res\\drawable-xhdpi-v4\\xinyusoft_luckview_jfdh2.png"
+    },
+    {
+        "merged": "D:\\Android\\app\\XshellLib\\Xinyusoft\\XshellLib\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\launch_image_port.png",
+        "source": "D:\\Android\\app\\XshellLib\\Xinyusoft\\XshellLib\\src\\main\\res\\drawable-xhdpi\\launch_image_port.png"
+    }
+]

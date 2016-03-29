@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- xinyusoft start  -->
+    <color name="white">#FFFFFF</color>   
+    <color name="black">#ff000000</color>
+    <color name="red">#ffff0000</color>
+    <color name="gesture_background">#ff303237</color>
+    <color name="color_hei_8">#00000000</color>
+
+    <drawable name="trans">@color/color_hei_8</drawable>
+    <!-- 沉浸式状态栏的颜色 -->
+    <color name="colorful_status_bar">#5A3319</color>
+    <!-- 大转盘的标题栏的颜色  -->
+    <color name="luckview_title">#c67e21</color>
+    <!-- 大转盘的底部按钮字体的颜色  -->
+    <color name="luckview_main_btn">#532407</color>
+    <!-- 大转盘界面的背景的颜色  -->
+    <color name="luckview_act_bg">#fdfaf6</color>
+    <!-- 积分兑换切换的背景颜色 -->
+    <color name="background_tab_pressed">#88c67e21</color>
+    
+    <!-- 项目的黑色字体 -->
+    <color name="font_black">#333333</color>
+    <!-- 项目的灰色色字体 -->
+    <color name="font_gray_black">#777777</color>
+    
+    <!-- 股票列表涨的字体颜色 -->
+    <color name="luckview_stocklist_up">#F63046</color>
+     <!-- 股票列表跌的字体颜色 -->
+    <color name="luckview_stocklist_down">#0f870f</color>
+     <!-- 股票列表停牌的字体颜色 -->
+    <color name="luckview_stocklist_normal">#333333</color>
+	<!-- xinyusoft end  -->
+	
+</resources>

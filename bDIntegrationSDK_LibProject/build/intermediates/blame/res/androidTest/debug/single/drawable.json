@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "D:\\Android\\app\\XshellLib\\Xinyusoft\\bDIntegrationSDK_LibProject\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\bdp_update_bg_dialog_title.xml",
+        "source": "D:\\Android\\app\\XshellLib\\Xinyusoft\\bDIntegrationSDK_LibProject\\build\\intermediates\\bundles\\debug\\res\\drawable\\bdp_update_bg_dialog_title.xml"
+    },
+    {
+        "merged": "D:\\Android\\app\\XshellLib\\Xinyusoft\\bDIntegrationSDK_LibProject\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\bdp_update_progress_download.xml",
+        "source": "D:\\Android\\app\\XshellLib\\Xinyusoft\\bDIntegrationSDK_LibProject\\build\\intermediates\\bundles\\debug\\res\\drawable\\bdp_update_progress_download.xml"
+    },
+    {
+        "merged": "D:\\Android\\app\\XshellLib\\Xinyusoft\\bDIntegrationSDK_LibProject\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\bdp_update_bg_dialog_content.xml",
+        "source": "D:\\Android\\app\\XshellLib\\Xinyusoft\\bDIntegrationSDK_LibProject\\build\\intermediates\\bundles\\debug\\res\\drawable\\bdp_update_bg_dialog_content.xml"
+    },
+    {
+        "merged": "D:\\Android\\app\\XshellLib\\Xinyusoft\\bDIntegrationSDK_LibProject\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\bdp_update_bg_dialog_btn.xml",
+        "source": "D:\\Android\\app\\XshellLib\\Xinyusoft\\bDIntegrationSDK_LibProject\\build\\intermediates\\bundles\\debug\\res\\drawable\\bdp_update_bg_dialog_btn.xml"
+    }
+]

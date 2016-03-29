@@ -1,0 +1,41 @@
+<html>
+<meta http-equiv="Content-Security-Policy"
+	content="">
+<head>
+<title>A.html</title>
+<script src="cordova.js"></script>
+<script src="inappbrowser.js"></script>
+<script>
+	//document.addEventListener("deviceready", onDeviceReady, false);
+	function testA() {
+
+		var ref = cordova.InAppBrowser.open('B.html', '_blank',
+				'location=yes');
+		ref.addEventListener('loadstart', function() {
+			//alert(event.url);
+		});
+	}
+	var sr = null;
+	function testA() {
+		navigator.encryptplugin.encrypt(function(data){alert(data);sr = data;},"hahgds","haha");
+	}
+	
+	function testB() {
+		alert(sr);
+		navigator.encryptplugin.decrypt(function(data){alert(data)},sr,"haha");
+	}
+	
+	function appState(json) {
+		alert(json);
+	}
+</script>
+</head>
+<body>
+	<a href="javascript:testA()">encrypt</a>
+	<br/>
+	<br/>
+	<a href="javascript:testB()">decrypt</a>
+	<br/>
+	<br/>
+</body>
+</html>

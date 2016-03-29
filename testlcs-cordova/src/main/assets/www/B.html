@@ -1,0 +1,109 @@
+<html>
+<head>
+<meta name="viewport"
+	content="width=device-width, initial-scale=1.0,user-scalable=no,minimum-scale=1.0, maximum-scale=1.0">
+<meta charset="utf-8">
+<script src="cordova_plugins.js"></script>
+<script src="cordova.js"></script>
+<script>
+		  
+	function update1() {
+		 var json = "[{\"taskGoal\":\"taskGoal1\",\"type\":\"1\",\"time\":\"2015-1-1\",\"totalNum\":\"10\",\"lastMessage\":\"123123123\",\"lastSender\":\"aaaa\"}"
+		 +",{\"taskGoal\":\"taskGoal2\",\"type\":\"1\",\"time\":\"2015-1-1\",\"totalNum\":\"9\",\"lastMessage\":\"123123123\",\"lastSender\":\"aaaa\"},"
+		 +"{\"taskGoal\":\"taskGoal3\",\"type\":\"1\",\"time\":\"2015-1-1\",\"totalNum\":\"8\",\"lastMessage\":\"123123123\",\"lastSender\":\"aaaa\"}]";
+		navigator.SqliteUserPlugin.update(function (date){
+			alert(date);
+		}, json);
+	}
+	
+	function update2() {
+		 var json = "{\"taskGoal\":\"2\",\"type\":\"1\",\"time\":\"2015-1-1\",\"totalNum\":\"1\",\"lastMessage\":\"123123123\",\"lastSender\":\"aaaa\"}"
+				navigator.SqliteUserPlugin.update(function (date){
+					alert(date);
+				}, json);
+	}
+	
+	function delete1(){
+		navigator.SqliteUserPlugin.deleteFramTaskGoal(function(date){
+			alert(date);
+		},"1");
+	}
+	
+	function select1(){
+		navigator.SqliteUserPlugin.selectFramTaskGoalToUrm(function(date){
+			alert(date);
+		},"1");
+	}
+	
+	function select2(){
+		navigator.SqliteUserPlugin.selectToLastMessage(function(date){
+			alert(date);
+		},"1");
+
+	}
+
+	
+	function select3(){
+		navigator.SqliteUserPlugin.selectToSomeMessage(function(date){
+			alert(date);
+		},"[{taskGoal:lcs_77}"
+		+",{taskGoal:product_106},"
+		+"{taskGoal:product_107},"
+		+"{taskGoal:product_96},"
+		+"{taskGoal:product_112},"
+		+"{taskGoal:product_90},"
+		+"{taskGoal:product_86},"
+		+"{taskGoal:product_78},"
+		+"{taskGoal:product_1},"
+		+"{taskGoal:product_82},"
+		+"{taskGoal:product_109},"
+		+"{taskGoal:product_104},"
+		+"{taskGoal:product_22},"
+		+"{taskGoal:product_26},"
+		+"{taskGoal:product_45},"
+		+"{taskGoal:product_58},"
+		+"{taskGoal:product_60},"
+		+"{taskGoal:product_65},"
+		+"{taskGoal:product_95},"
+		+"{taskGoal:product_97},"
+		+"{taskGoal:product_99},"
+		+"{taskGoal:product_103},"
+		+"{taskGoal:product_105},"
+		+"{taskGoal:product_19},"
+		+"{taskGoal:product_32},"
+		+"{taskGoal:product_39},"
+		+"{taskGoal:product_49},"
+		+"{taskGoal:product_56},{taskGoal:product_66},{taskGoal:product_59}]");
+	}
+	
+	function openSmartPlayer(){
+		navigator.SmartPlayerPlugin.openSmartPlayer("rtmp://daniulive.com:1935/live/streamtest1");
+	}
+</script>
+
+</head>
+<body> 
+	
+
+	<a href="javascript:update1()">更新本地数据接口并返回未读数量</a>
+	<a href="javascript:update2()">更新本地数据接口并返回未读数量2</a>
+	<br />
+	<br />
+	
+	<a href="javascript:delete1()">清空某个业务目标未读消息数量</a>
+	<br />
+	<br />
+	
+	<a href="javascript:select1()">查询某个业务目标未读数量</a>
+	<br />
+	<br />
+	
+	<a href="javascript:select2()">查询某个业务目标信息内容</a>
+	<br />
+	<a href="javascript:select3()">查询多个业务目标未读数量</a>
+	<br/>
+	<a href="javascript:openSmartPlayer()">打开直播</a>
+	<br />
+
+</body>
+</html>
