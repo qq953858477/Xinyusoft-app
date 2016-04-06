@@ -164,7 +164,7 @@
                 android:layout_below="@+id/show"
                 android:layout_centerHorizontal="true"
                 android:layout_marginTop="5dp"
-                android:background="@drawable/xinyusoft_luckview_button1" />
+                android:src="@drawable/xinyusoft_luckview_button1" />
         </RelativeLayout>
 
         <TextView
