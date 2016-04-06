@@ -23,6 +23,12 @@ android {
             storeFile file("D:\\Android\\eclipse\\keystone\\debug.keystore")
         }
     }
+    sourceSets {
+        main {
+            jni.srcDirs = []
+            jniLibs.srcDirs = ['libs']
+        }
+    }
 }
 
 dependencies {
