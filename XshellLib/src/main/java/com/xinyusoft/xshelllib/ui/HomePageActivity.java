@@ -62,7 +62,6 @@ public class HomePageActivity extends XinyuHomeActivity {
 		url = "file:///android_asset/www/testLuckView.html";
 //		 url = "file:///" + getFilesDir().getAbsolutePath() + File.separator +
 //		 "index.html";
-
 		// url = "file:///" + getFilesDir().getAbsolutePath() +
 		// File.separator +"C.html";
 		mRegReceiver();
