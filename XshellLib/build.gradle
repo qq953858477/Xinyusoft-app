@@ -33,7 +33,14 @@ android {
     }
 
     useLibrary 'org.apache.http.legacy'
+
+
+
+
 }
+
+
+
 
 dependencies {
     compile fileTree(include: ['*.jar'], dir: 'libs')
