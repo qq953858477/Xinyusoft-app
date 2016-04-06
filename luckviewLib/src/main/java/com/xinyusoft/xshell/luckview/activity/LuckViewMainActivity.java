@@ -1,21 +1,11 @@
 package com.xinyusoft.xshell.luckview.activity;
 
-import java.io.FileNotFoundException;
-import java.util.ArrayList;
-import java.util.List;
-
-import org.json.JSONArray;
-import org.json.JSONException;
-import org.json.JSONObject;
-
 import android.animation.ObjectAnimator;
 import android.animation.ValueAnimator;
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
-import android.os.Parcelable;
-import android.util.Log;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.view.animation.LinearInterpolator;
@@ -37,6 +27,13 @@ import com.xinyusoft.xshell.luckview.bean.PrizeStock;
 import com.xinyusoft.xshell.luckview.utils.SoundUtil;
 import com.xinyusoft.xshell.luckview.utils.VolleyUtil;
 import com.xinyusoft.xshell.luckview.utils.weixin.WeixinUtil;
+
+import org.json.JSONArray;
+import org.json.JSONException;
+import org.json.JSONObject;
+
+import java.io.FileNotFoundException;
+import java.util.ArrayList;
 
 /**
  * 大转盘主类
@@ -130,6 +127,8 @@ public class LuckViewMainActivity extends LuckViewBaseActivity implements OnClic
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
+
+
 		setContentView(R.layout.xinyusoft_activity_luckview_main);
 		LuckViewCollector.addActivity(this);
 
@@ -146,6 +145,7 @@ public class LuckViewMainActivity extends LuckViewBaseActivity implements OnClic
 		mStartBtn.setEnabled(false);
 		initDate();
 		isLotteryDrawForStart();
+
 
 	}
 
@@ -274,7 +274,7 @@ public class LuckViewMainActivity extends LuckViewBaseActivity implements OnClic
 						if (animator != null) {
 							animator.cancel();
 							luckview_changedata.setEnabled(true);
-							Toast.makeText(LuckViewMainActivity.this, "已重新随机抽取300只股票", 0).show();
+							Toast.makeText(LuckViewMainActivity.this, "已重新随机抽取300只股票", Toast.LENGTH_SHORT).show();
 						}
 
 					}
@@ -358,7 +358,7 @@ public class LuckViewMainActivity extends LuckViewBaseActivity implements OnClic
 
 			isCloseSound = !isCloseSound;
 		} else if (id == R.id.luck_share) {
-			Toast.makeText(this, "请稍等~", 0).show();
+			Toast.makeText(this, "请稍等~", Toast.LENGTH_SHORT).show();
 			// 分享
 			if (mPrizeStock == null) {
 				WeixinUtil.getInstance().sendWebPage(this, "http://a.app.qq.com/o/simple.jsp?pkgname=com.xinyusoft.zhlcs", userName + "邀请你一起来玩股票幸运大转盘啦！", "幸运大转盘",
@@ -369,7 +369,7 @@ public class LuckViewMainActivity extends LuckViewBaseActivity implements OnClic
 			}
 		} else if (id == R.id.luckview_sharemyfriend) {
 
-			Toast.makeText(this, "请稍等~", 0).show();
+			Toast.makeText(this, "请稍等~", Toast.LENGTH_SHORT).show();
 			// 分享
 			if (mPrizeStock == null) {
 				WeixinUtil.getInstance().sendWebPage(this, "http://a.app.qq.com/o/simple.jsp?pkgname=com.xinyusoft.zhlcs", "幸运大转盘", userName + "邀请你一起来玩股票幸运大转盘啦！",
@@ -396,14 +396,15 @@ public class LuckViewMainActivity extends LuckViewBaseActivity implements OnClic
 			intent.putExtra("userId", userId);
 			intent.putExtra("ipUrl", ipUrl);
 			startActivity(intent);
-		} else if (id == R.id.luckview_moreluck) { // 查看好友的积分
+		} else if (id == R.id.luckview_moreluck) { // 更多抽奖
 			// TODO
-			Toast.makeText(this, "敬请期待~", 0).show();
+			//Toast.makeText(this, "敬请期待~", Toast.LENGTH_SHORT).show();
 			// Intent intent = new Intent(this, ImageListActivity.class);
 			// intent.putExtra("userId", userId);
 			// intent.putExtra("ipUrl", ipUrl);
 			// intent.putExtra(Constants.Extra.IMAGES, Constants.IMAGES);
 			// startActivity(intent);
+			startActivity(new Intent(this,LuckViewMorePriceActivity.class));
 		} else if (id == R.id.id_luckypan) {
 			// TODO
 			Intent intent = new Intent(this, LuckViewStockListActivity.class);
@@ -531,7 +532,7 @@ public class LuckViewMainActivity extends LuckViewBaseActivity implements OnClic
 						
 					} else {
 						showTomorrow.setVisibility(View.VISIBLE);
-						//mStartBtn.setImageResource(R.drawable.xinyusoft_luckview_button4);
+						mStartBtn.setImageResource(R.drawable.xinyusoft_luckview_button4);
 						// Toast.makeText(LuckViewMainActivity.this,
 						// "您当日的次数已经用完，下一个交易再来吧", Toast.LENGTH_SHORT).show();
 						// TODO

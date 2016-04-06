@@ -225,7 +225,7 @@ public class LuckViewStockListActivity extends LuckViewBaseActivity implements O
 			adapter.notifyDataSetInvalidated();
 		} else if (id == R.id.luckview_title_back) {
 			Intent resultIntent = new Intent();
-			resultIntent.putParcelableArrayListExtra("stockList", list);
+			resultIntent.putParcelableArrayListExtra("stockList", nomalList);
 			setResult(STOCKLIST_RESULTCODE, resultIntent);
 			
 			finish();
