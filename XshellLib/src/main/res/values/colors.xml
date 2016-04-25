@@ -8,9 +8,11 @@
     <color name="color_hei_8">#00000000</color>
 
     <drawable name="trans">@color/color_hei_8</drawable>
-    <!-- 沉浸式状态栏的颜色 -->
-    <color name="colorful_status_bar">#5A3319</color>
-    
+    <!-- 沉浸式状态栏的颜色  蓝色 -->
+    <!--<color name="colorful_status_bar">#2e6bb1</color>-->
+    <!-- 沉浸式状态栏的颜色  黑金 -->
+    <color name="colorful_status_bar">#5a3319</color>
+
 	<!-- xinyusoft end  -->
 	
 </resources>
