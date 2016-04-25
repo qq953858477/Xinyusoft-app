@@ -39,7 +39,7 @@ public class AppConstants {
 	// 关闭一个新的Activity
 	public static final String ACTION_CLOSE_BROSER = "ACTION_CLOSE_BROSER";
 
-	public static final String APP_ROOT_DIR = "uuFinancialPlanner"; // app应用文件SD卡主目录
+	public static final String APP_ROOT_DIR = "xshell"; // app应用文件SD卡主目录
 	// 播放音乐
 	public static final String ACTION_WEBVIEW_PLAY_SOUND = "com.vriteam.android.ke.ACTION_WEBVIEW_PLAY_SOUND";
 	// 录音begin

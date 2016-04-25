@@ -1,16 +1,5 @@
 package com.xinyusoft.xshelllib.plugin;
 
-import java.io.File;
-import java.net.URLDecoder;
-import java.util.HashMap;
-import java.util.List;
-
-import org.apache.cordova.CallbackContext;
-import org.apache.cordova.CordovaPlugin;
-import org.json.JSONArray;
-import org.json.JSONException;
-import org.json.JSONObject;
-
 import android.app.ActivityManager;
 import android.app.ActivityManager.RunningAppProcessInfo;
 import android.content.ClipData;
@@ -35,6 +24,17 @@ import com.xinyusoft.xshelllib.utils.PhoneInfo;
 import com.xinyusoft.xshelllib.utils.PlaySoundsUtil;
 import com.xinyusoft.xshelllib.utils.VersionUtil;
 
+import org.apache.cordova.CallbackContext;
+import org.apache.cordova.CordovaPlugin;
+import org.json.JSONArray;
+import org.json.JSONException;
+import org.json.JSONObject;
+
+import java.io.File;
+import java.net.URLDecoder;
+import java.util.HashMap;
+import java.util.List;
+
 /**
  * 原生插件，比如读写文件
  * 
@@ -47,17 +47,12 @@ public class NativePlugin extends CordovaPlugin {
 	private static HashMap<String, Integer> sounds = new HashMap<String, Integer>();// 音乐播放
 	private static File ROOT_FILE = new File(context.getFilesDir().getAbsolutePath());
 	
-
-	
-	
 	/** 当打开一个页面时，需要调用回调函数名字 */
 	private String newBroserCallBcak;
-	
-	
+
 	//手势解锁成功的回掉函数名
 	public static String FUNCTIONNAME;
-	
-	
+
 	public NativePlugin(){
 		Log.d("dd", "NativePlugin++++");
 	}
@@ -94,8 +89,8 @@ public class NativePlugin extends CordovaPlugin {
 					return true;
 				}
 			} else if ("startToChangeOrientation".equals(action)) { // 横竖屏切换
-				JSONObject jos = args.getJSONObject(0);
-				final String callBackName = jos.getString("callBackName");
+				JSONObject jos = new JSONObject(result);
+				final String callBackName = jos.getString("callbackName");
 				String string = jos.getString("type");
 				if("1".equals(jos.getString("type"))) {
 					cordova.getActivity().setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_SENSOR_LANDSCAPE);
@@ -109,20 +104,7 @@ public class NativePlugin extends CordovaPlugin {
 						webView.loadUrl("javascript:" + callBackName.trim() + "('{\"result\":1}')");
 					}
 				});
-				callbackContext.success();
 				return true;
-			} else if ("screenPortrait".equals(action)) { // 竖屏
-				if (null != result && result.length() > 0) {
-
-					// Intent intent = new Intent(AppConstants.ACTION_PORTRAIT);
-					// LocalBroadcastManager.getInstance(cordova.getActivity())
-					// .sendBroadcast(intent);
-					cordova.getActivity().setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_SENSOR_PORTRAIT);
-					JSONObject json = new JSONObject();
-					json.put("result", 1);
-					callbackContext.success(json);
-					return true;
-				}
 			} else if ("share".equals(action)) { // 分享功能
 				JSONObject jo = args.getJSONObject(0);
 				WeixinUtil.getInstance().weixinShare(jo, cordova.getActivity());
@@ -233,7 +215,6 @@ public class NativePlugin extends CordovaPlugin {
 				default:
 					break;
 				}
-
 				callbackContext.success();
 				return true;
 
@@ -248,13 +229,10 @@ public class NativePlugin extends CordovaPlugin {
 					//解锁成功后调用function的名字
 					intent.putExtra("functionName", FUNCTIONNAME);
 					cordova.getActivity().startActivity(intent);
-					
 					return true;
-				
 			} else if("setLock".equals(action)){
 				AppContext.APPCONTEXT.getLockPatternUtils().clearLock();
 			}else if ("showKeyboard".equals(action)) { //显示键盘
-			
 				Intent intent = new Intent(AppConstants.SHOW_KEYBOARD);
 				intent.putExtra("callbackName", args.getString(0));
 				intent.putExtra("type", args.getString(1));
@@ -290,8 +268,6 @@ public class NativePlugin extends CordovaPlugin {
 	@Override
 	public void onResume(boolean multitasking) {
 		super.onResume(multitasking);
-
-		Log.i("zzy", "NativePlugin onresume:");
 		if (newBroserCallBcak != null) {
 			cordova.getActivity().runOnUiThread(new Runnable() {
 

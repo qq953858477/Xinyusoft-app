@@ -1,13 +1,5 @@
 package com.xinyusoft.xshelllib.plugin;
 
-import java.io.File;
-import java.io.IOException;
-
-import org.apache.cordova.CallbackContext;
-import org.apache.cordova.CordovaPlugin;
-import org.json.JSONArray;
-import org.json.JSONException;
-
 import android.text.TextUtils;
 
 import com.lidroid.xutils.exception.HttpException;
@@ -20,6 +12,17 @@ import com.xinyusoft.xshelllib.utils.Log2FileUtil;
 import com.xinyusoft.xshelllib.utils.RecorderUtil;
 import com.xinyusoft.xshelllib.utils.UploadUtil;
 
+import org.apache.cordova.CallbackContext;
+import org.apache.cordova.CordovaPlugin;
+import org.json.JSONArray;
+import org.json.JSONException;
+
+import java.io.File;
+import java.io.IOException;
+
+/**
+ * 录音插件
+ */
 public class RecordPlugin extends CordovaPlugin {
 
 	private RecorderUtil mRecorderUtil = new RecorderUtil();
@@ -51,7 +54,7 @@ public class RecordPlugin extends CordovaPlugin {
 				
 				@Override
 				public void run() {
-					webView.loadUrl("javascript:" + callBackName.trim() + "()");
+					webView.loadUrl("javascript:" + callBackName.trim() + "('1')");
 				}
 			});
 			return true;

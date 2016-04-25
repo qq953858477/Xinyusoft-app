@@ -1,11 +1,5 @@
 package com.xinyusoft.xshelllib.ui;
 
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.IOException;
-import java.io.InputStream;
-import java.lang.ref.WeakReference;
-
 import android.content.Context;
 import android.content.Intent;
 import android.graphics.Bitmap;
@@ -21,8 +15,15 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.RelativeLayout;
 
+import com.xinyusoft.xshelllib.R;
 import com.xinyusoft.xshelllib.application.AppConstants;
 import com.xinyusoft.xshelllib.utils.PreferenceUtil;
+
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.io.InputStream;
+import java.lang.ref.WeakReference;
 
 public class TestFragment extends Fragment {
 	private static final String KEY_CONTENT = "TestFragment:Content";
@@ -43,14 +44,14 @@ public class TestFragment extends Fragment {
 
 	@Override
 	public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-		View view = inflater.inflate(getResources().getIdentifier("xinyusoft_fragment_gui_view", "layout", getActivity().getPackageName()), null);
+		View view = inflater.inflate(R.layout.xinyusoft_fragment_gui_view,container, false);
 
-		fragment_gui = (RelativeLayout) view.findViewById(getResources().getIdentifier("RelativeLayout1", "id", getActivity().getPackageName()));
+		fragment_gui = (RelativeLayout) view.findViewById(R.id.RelativeLayout1);
 		context = getActivity();
 		imageurl = context.getFilesDir().getAbsolutePath() + "/imagepage/android";
 		Bundle b = getArguments();
 		index = b.getInt(AppConstants.TAG_INDEX);
-		ImageView iv = (ImageView) view.findViewById(getResources().getIdentifier("iv_guide_bg", "id", getActivity().getPackageName()));
+		ImageView iv = (ImageView) view.findViewById(R.id.iv_guide_bg);
 		fragment_gui.setOnClickListener(new OnClickListener() {
 			@Override
 			public void onClick(View v) {
@@ -63,11 +64,7 @@ public class TestFragment extends Fragment {
 					} catch (ClassNotFoundException e) {
 						e.printStackTrace();
 					}
-
-					Intent inten = new Intent();
-					inten.setAction(AppConstants.GUIDE_BROADCAST_NAME);
-					inten.putExtra("type", 3);
-					context.sendBroadcast(inten);
+					getActivity().finish();
 				}
 			}
 		});
@@ -164,14 +161,6 @@ public class TestFragment extends Fragment {
 
 		public void setBm(Bitmap bm) {
 			this.bm = bm;
-		}
-
-		public ImageView getIv() {
-			return iv;
-		}
-
-		public void setIv(ImageView iv) {
-			this.iv = iv;
 		}
 
 	}
