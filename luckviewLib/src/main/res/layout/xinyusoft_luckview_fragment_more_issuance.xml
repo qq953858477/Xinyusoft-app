@@ -9,7 +9,7 @@
         android:id="@+id/luckview_title_rl"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#5a3319"
+        android:background="@color/luckview_colorful_status_bar"
         android:orientation="horizontal"
         android:paddingBottom="12dp"
         android:paddingTop="12dp">
@@ -306,7 +306,7 @@
 
 
     <TextView
-        android:id="@+id/luckview_back_luckview"
+        android:id="@+id/luckview_issuance"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="20dp"
@@ -314,9 +314,10 @@
         android:layout_marginTop="35dp"
         android:background="@drawable/xinyusoft_luckview_btnbg"
         android:gravity="center"
-        android:paddingBottom="10dp"
-        android:paddingTop="10dp"
+        android:paddingBottom="15dp"
+        android:paddingTop="15dp"
         android:text="发布抽奖活动"
+        android:textSize="17sp"
         android:textColor="@color/luckview_act_bg" />
 
 

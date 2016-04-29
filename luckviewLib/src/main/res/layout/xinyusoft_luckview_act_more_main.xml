@@ -8,7 +8,7 @@
         android:id="@+id/luckview_title_rl"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#5a3319"
+        android:background="@color/luckview_colorful_status_bar"
         android:orientation="horizontal"
         android:paddingBottom="12dp"
         android:paddingTop="12dp">

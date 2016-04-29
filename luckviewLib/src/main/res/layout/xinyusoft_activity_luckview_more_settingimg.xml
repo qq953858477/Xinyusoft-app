@@ -34,7 +34,7 @@
             android:layout_weight="1">
 
             <ImageView
-                android:id="@+id/luckview_moreprice_issuance_img1"
+                android:id="@+id/luckview_moreprice_issuance_img16"
                 android:layout_width="40dp"
                 android:layout_height="40dp"
                 android:layout_centerInParent="true"

@@ -1,14 +1,5 @@
 package com.xinyusoft.xshell.luckview.activity;
 
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.Comparator;
-import java.util.List;
-
-import org.json.JSONArray;
-import org.json.JSONException;
-import org.json.JSONObject;
-
 import android.animation.ObjectAnimator;
 import android.animation.ValueAnimator;
 import android.content.Context;
@@ -34,6 +25,16 @@ import com.android.volley.toolbox.StringRequest;
 import com.xinyusoft.xshell.luckview.R;
 import com.xinyusoft.xshell.luckview.bean.PrizeStock;
 import com.xinyusoft.xshell.luckview.utils.VolleyUtil;
+
+import org.json.JSONArray;
+import org.json.JSONException;
+import org.json.JSONObject;
+
+import java.text.DecimalFormat;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
+import java.util.List;
 
 /**
  * 300只股票列表
@@ -112,12 +113,16 @@ public class LuckViewStockListActivity extends LuckViewBaseActivity implements O
 		setContentView(R.layout.xinyusoft_activity_luckview_stocklist);
 		list = new ArrayList<PrizeStock>();
 		Bundle bundle = getIntent().getExtras();
+
 		list = bundle.getParcelableArrayList("stocklist");
 		nomalList = (ArrayList<PrizeStock>) list.clone();
-
 		ipUrl = getIntent().getStringExtra("ipUrl");
 		queue = VolleyUtil.getRequestQueue(this);
 		initView();
+
+		if (getIntent().getIntExtra("isChangeStock", 0) > 0) {
+			luckview_changedata.setAlpha(125);
+		}
 
 	}
 
@@ -137,14 +142,17 @@ public class LuckViewStockListActivity extends LuckViewBaseActivity implements O
 
 		luckview_changedata = (ImageView) findViewById(R.id.luckview_changedata);
 		luckview_stocklist_zdf_img = (ImageView) findViewById(R.id.luckview_stocklist_zdf_img);
-		
+
+
+
+
 	}
 
 	class MyAdapter extends ArrayAdapter<PrizeStock> {
 		Context context;
 		int resource;
 		List<PrizeStock> list;
-
+		DecimalFormat df = new DecimalFormat("0.00");
 		public MyAdapter(Context context, int resource, List<PrizeStock> objects) {
 			super(context, resource, objects);
 			this.context = context;
@@ -178,7 +186,7 @@ public class LuckViewStockListActivity extends LuckViewBaseActivity implements O
 			holder.id.setText((position + 1) + "");
 			holder.name.setText(prizeStock.getName());
 			holder.code.setText(prizeStock.getSymbol());
-			holder.zdf.setText(zdf + "%");
+			holder.zdf.setText( df.format(zdf) + "%");
 
 			if (zdf > 0) {
 				holder.zdf.setTextColor(getResources().getColor(R.color.luckview_stocklist_up));
@@ -230,12 +238,20 @@ public class LuckViewStockListActivity extends LuckViewBaseActivity implements O
 			
 			finish();
 		} else if (id == R.id.luckview_huangu_rl) { // 换股
-			animator = ObjectAnimator.ofFloat(luckview_changedata, "rotation", 0f, 360f);
-			animator.setRepeatCount(ValueAnimator.INFINITE);
-			animator.setDuration(500);
-			animator.setInterpolator(new LinearInterpolator());
-			animator.start();
-			getStockDate();
+
+
+			if (getIntent().getIntExtra("isChangeStock", 0) > 0) {  //大于0代表已经开始抽奖了。
+
+				Toast.makeText(this,"抽奖之后不允许换股~",Toast.LENGTH_SHORT).show();
+			} else {
+				animator = ObjectAnimator.ofFloat(luckview_changedata, "rotation", 0f, 360f);
+				animator.setRepeatCount(ValueAnimator.INFINITE);
+				animator.setDuration(500);
+				animator.setInterpolator(new LinearInterpolator());
+				animator.start();
+				getStockDate();
+			}
+
 		}
 	}
 

@@ -9,13 +9,15 @@
 
     <drawable name="trans">@color/color_hei_8</drawable>
     <!-- 沉浸式状态栏的颜色 -->
-    <color name="colorful_status_bar">#5A3319</color>
+    <color name="luckview_colorful_status_bar">#2e6bb1</color>
+    <!-- 沉浸式状态栏的颜色 -->
+    <color name="luckview_colorful_status_bar_main">#1c4982</color>
     <!-- 大转盘的标题栏的颜色  -->
-    <color name="luckview_title">#c67e21</color>
+    <color name="luckview_title">#589bfd</color>
     <!-- 大转盘的底部按钮字体的颜色  -->
     <color name="luckview_main_btn">#532407</color>
     <!-- 大转盘界面的背景的颜色  -->
-    <color name="luckview_act_bg">#fdfaf6</color>
+    <color name="luckview_act_bg">#eef2f6</color>
     <!-- 积分兑换切换的背景颜色 -->
     <color name="background_tab_pressed">#88c67e21</color>
     

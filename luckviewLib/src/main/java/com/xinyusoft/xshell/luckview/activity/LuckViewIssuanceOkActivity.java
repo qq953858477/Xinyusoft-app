@@ -16,7 +16,7 @@ public class LuckViewIssuanceOkActivity extends LuckViewBaseActivity implements 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.xinyusoft_activity_luckview_more_issuancerule);
+        setContentView(R.layout.xinyusoft_activity_luckview_more_issuanceok);
 
         initView();
     }
@@ -27,8 +27,7 @@ public class LuckViewIssuanceOkActivity extends LuckViewBaseActivity implements 
         TextView tv_title = (TextView) findViewById(R.id.luckview_title_name);
         tv_title.setText("规则设置");
 
-        TextView tv_ok = (TextView) findViewById(R.id.luckview_issuancerule_ok);
-        tv_ok.setOnClickListener(this);
+
 
 
     }

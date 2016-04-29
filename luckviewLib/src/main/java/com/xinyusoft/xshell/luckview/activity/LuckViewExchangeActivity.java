@@ -1,17 +1,14 @@
 package com.xinyusoft.xshell.luckview.activity;
 
 import android.os.Bundle;
-import android.os.Build.VERSION;
-import android.os.Build.VERSION_CODES;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentActivity;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 import android.support.v4.view.ViewPager;
 import android.view.View;
-import android.view.Window;
-import android.view.WindowManager;
 import android.view.View.OnClickListener;
+import android.view.Window;
 import android.widget.ImageView;
 import android.widget.ProgressBar;
 import android.widget.TextView;
@@ -19,7 +16,7 @@ import android.widget.TextView;
 import com.xinyusoft.xshell.luckview.R;
 import com.xinyusoft.xshell.luckview.fragment.HuafeiFragment;
 import com.xinyusoft.xshell.luckview.fragment.LiuliangFragment;
-import com.xinyusoft.xshell.luckview.utils.SystemBarTintManager;
+import com.xinyusoft.xshell.luckview.utils.FulStatusBarUtil;
 import com.xinyusoft.xshell.luckview.widget.PagerSlidingTabStrip;
 
 /**
@@ -45,10 +42,8 @@ public class LuckViewExchangeActivity extends FragmentActivity implements OnClic
 		super.onCreate(savedInstanceState);
 		
 		requestWindowFeature(Window.FEATURE_NO_TITLE);
-		if (VERSION.SDK_INT >= VERSION_CODES.KITKAT) {
-			// 透明状态栏
-			getWindow().addFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS);
-		}
+		FulStatusBarUtil.setcolorfulStatusBar(this);
+
 		userId = getIntent().getStringExtra("userId");
 		ipUrl = getIntent().getStringExtra("ipUrl");
 		availableScore = getIntent().getDoubleExtra("availableScore", 0);
@@ -59,18 +54,8 @@ public class LuckViewExchangeActivity extends FragmentActivity implements OnClic
 		initViews();
 		pager.setAdapter(new MyAdapter(getSupportFragmentManager(), titles));
 		tabs.setViewPager(pager);
-		setcolorfulStatusBar();
+
 		
-	}
-	
-	
-	/**
-	 * 设置沉浸式状态栏
-	 */
-	private void setcolorfulStatusBar() {
-		SystemBarTintManager tintManager = new SystemBarTintManager(this);
-		tintManager.setStatusBarTintEnabled(true);
-		tintManager.setTintColor(getResources().getColor(R.color.colorful_status_bar));
 	}
 
 	private void initViews() {

@@ -13,7 +13,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="6dp"
         android:text="股票幸运大转盘"
-        android:textColor="#f7c34b"
+        android:textColor="#ffffff"
         android:textSize="35sp" />
 
     <LinearLayout
