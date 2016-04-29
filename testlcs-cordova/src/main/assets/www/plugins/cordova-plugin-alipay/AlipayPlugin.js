@@ -29,11 +29,8 @@ cordova.define("cordova-plugin-alipay.AlipayPlugin", function(require, exports,
 
 	module.exports = {
 
-		alipay : function(payDetailInfo) {
-			alert("aaa");
-			exec(null, null, "AlipayPlugin", "alipay", [ {
-				'payDetailInfo' : payDetailInfo
-			} ]);
+		alipay : function(payDetailInfo,callbackName) {
+			exec(null, null, "AlipayPlugin", "aliPay", [ payDetailInfo,callbackName ]);
 		}
 	};
 

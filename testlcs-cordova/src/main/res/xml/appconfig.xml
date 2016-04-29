@@ -1,40 +1,31 @@
 <?xml version='1.0' encoding='utf-8'?>
 <config>
 
-    <html-update-time time="201703161025" />
+    <html-update-time time="201604271424" />
 
     <wxapp-id id="wxa7085f7f107e37dd" />
 
     <wxapp-secret secret="715a059d44b9547966df7dfc72d315ab" />
+
     <android>
         <app-update-time time="201703201050" />
-
         <app-guide name="launch_image_port" />
-
-        <class-home path="com.xinyusoft.xshelllib.ui.HomePageActivity" />
-    </android>
-
-    <address-config>
-        <address
-            name="html_url_list"
-            description="html更新列表(用于查询html是否要更新)  192.168.0.204/xversion  zzytest     121.40.148.145  UULCS_FILE_TEST "
-            value="http://testxv.xinyusoft.com/ESBServlet?command=vms.getChangedListAction&amp;appname=UULCS_FILE_TEST&amp;time=" />
-        <address
-            name="app_url_download"
+        <class-home path="com.xinyusoft.HomePageActivity" />
+        <html_url_list
+            description="html更新列表(用于查询html是否要更新)  192.168.0.204/xversion    UULCS_FILE_TEST   121.40.148.145  UULCS_FILE_TEST "
+            value="http://192.168.0.204/xversion/ESBServlet?command=vms.getChangedListAction&amp;appname=UULCS_FILE_TEST&amp;time=" />
+        <html_url_download
+            description="html下载地址(需要html更新列表获得zip的名字)  testxv.xinyusoft.com/xvfile"
+            value="http://192.168.0.204/xversion/" />
+        <app_url_download
             description="app下载地址"
             value="http://testxv.xinyusoft.com/xvfile/zhlcs_test_android/testlcs-cordova.apk" />
-        <address
-            name="app_url_list"
+        <app_url_list
             description="app更新列表(用于查询app是否要更新)"
             value="http://testxv.xinyusoft.com/ESBServlet?command=vms.getChangedListAction&amp;appname=zhlcs_test_android&amp;time=" />
-        <address
-            name="html_url_download"
-            description="html下载地址(需要html更新列表获得zip的名字)"
-            value="http://testxv.xinyusoft.com/xvfile/" />
-        <address
-            name="app_url_content"
+        <app_url_content
             description="app更新的内容"
             value="http://testxv.xinyusoft.com/ESBServlet?command=vms.getAccessListAction&amp;appname=zhlcs_test_android" />
-    </address-config>
+    </android>
 
 </config>
