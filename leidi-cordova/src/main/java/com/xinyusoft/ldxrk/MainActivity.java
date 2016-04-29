@@ -1,4 +1,4 @@
-package xinyusoft.myapplication;
+package com.xinyusoft.ldxrk;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
