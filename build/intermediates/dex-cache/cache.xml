@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="D:\Android\app\XshellLib\Xinyusoft\zhlcs-cordova\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="e4d0cbb0b999604b349062f0214a0a228a7fd151">
+        <dex dex="D:\Android\app\XshellLib\Xinyusoft\zhlcs-cordova\build\intermediates\pre-dexed\release\com.android.support-appcompat-v7-23.2.1_e124a90982dab308b6287b79cff7449bb9df00a7.jar" />
+    </item>
+    <item
+        jar="D:\Android\app\XshellLib\Xinyusoft\zhlcs-cordova\build\intermediates\exploded-aar\Xinyusoft\luckviewLib\unspecified\jars\libs\volley.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="5e7b087ebf10dee944c28259409d3bf10b4f0f1f">
+        <dex dex="D:\Android\app\XshellLib\Xinyusoft\zhlcs-cordova\build\intermediates\pre-dexed\release\volley_dd131fc86a7f041463a4022505ca718c6c334f1b.jar" />
+    </item>
+    <item
+        jar="D:\Android\app\XshellLib\Xinyusoft\zhlcs-cordova\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="3469cb457f10f74c28cbc05f069b6c894f6cbdd0">
+        <dex dex="D:\Android\app\XshellLib\Xinyusoft\zhlcs-cordova\build\intermediates\pre-dexed\release\com.android.support-animated-vector-drawable-23.2.1_dd2e6657213b65012e40f9255140959549837fe4.jar" />
+    </item>
+    <item
+        jar="D:\Android\app\XshellLib\Xinyusoft\zhlcs-cordova\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.1\jars\libs\internal_impl-23.2.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="607a3d0b8013b4ccbfeb0b7cb293351994e021fb">
+        <dex dex="D:\Android\app\XshellLib\Xinyusoft\zhlcs-cordova\build\intermediates\pre-dexed\release\internal_impl-23.2.1_b996bdc4b340d95009008d249c10ee259eab65f9.jar" />
+    </item>
+    <item
+        jar="D:\Android\app\XshellLib\Xinyusoft\zhlcs-cordova\build\intermediates\exploded-aar\Xinyusoft\luckviewLib\unspecified\jars\libs\libammsdk.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="6bfc6d483382c63db3aa2ef99d42e7c53e884f4f">
+        <dex dex="D:\Android\app\XshellLib\Xinyusoft\zhlcs-cordova\build\intermediates\pre-dexed\release\libammsdk_95a88fdb2107afc3039cf5e817ab72dcbde2784a.jar" />
+    </item>
+    <item
+        jar="D:\Android\app\XshellLib\Xinyusoft\zhlcs-cordova\build\intermediates\exploded-aar\Xinyusoft\XshellLib\unspecified\jars\libs\wup-1.0.0.E-SNAPSHOT.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="30f08eb93a826d68f1c7a2af6647a2b08364a1ed">
+        <dex dex="D:\Android\app\XshellLib\Xinyusoft\zhlcs-cordova\build\intermediates\pre-dexed\release\wup-1.0.0.E-SNAPSHOT_0d3043cb0304da4e47733a278a0e972a2754d7bc.jar" />
+    </item>
+    <item
+        jar="D:\Android\app\XshellLib\Xinyusoft\zhlcs-cordova\build\intermediates\exploded-aar\Xinyusoft\XshellLib\unspecified\jars\libs\sqlite4java.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="b9aa482246e93256a892531d6af583a94f06f1f1">
+        <dex dex="D:\Android\app\XshellLib\Xinyusoft\zhlcs-cordova\build\intermediates\pre-dexed\release\sqlite4java_34f44bdad84564e618806931e64dec4790fdce05.jar" />
+    </item>
+    <item
+        jar="D:\Android\app\XshellLib\Xinyusoft\zhlcs-cordova\build\intermediates\exploded-aar\Xinyusoft\CordovaLib\unspecified\release\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="2925cd36bdbd1821ac8b0eedf7356020fc806644">
+        <dex dex="D:\Android\app\XshellLib\Xinyusoft\zhlcs-cordova\build\intermediates\pre-dexed\release\CordovaLib-unspecified-release_d791ba1ef2dcb11c2dad1fbc8afd2f9d676126c4.jar" />
+    </item>
+    <item
+        jar="D:\Android\app\XshellLib\Xinyusoft\zhlcs-cordova\build\intermediates\exploded-aar\Xinyusoft\XshellLib\unspecified\jars\libs\xinyusoftkeyboard.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="dd74ccd34d93a2786390bf967f670bd84f936498">
+        <dex dex="D:\Android\app\XshellLib\Xinyusoft\zhlcs-cordova\build\intermediates\pre-dexed\release\xinyusoftkeyboard_e7c7ccd2eb733595087802c0e6b0a056c7e5493c.jar" />
+    </item>
+    <item
+        jar="D:\Android\app\XshellLib\Xinyusoft\zhlcs-cordova\build\intermediates\exploded-aar\Xinyusoft\XshellLib\unspecified\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="9af12e6dbbeccc1c1b50647f0edccc2ecb1acc10">
+        <dex dex="D:\Android\app\XshellLib\Xinyusoft\zhlcs-cordova\build\intermediates\pre-dexed\release\Xinyusoft-XshellLib-unspecified_32c75718926b575841c4d5763d87dae129af30f6.jar" />
+    </item>
+    <item
+        jar="D:\Android\app\XshellLib\Xinyusoft\zhlcs-cordova\build\intermediates\exploded-aar\Xinyusoft\XshellLib\unspecified\jars\libs\xUtils-2.6.14.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="4b0c5f639ca63bc3b5a7f4cacd4adefd17be3d68">
+        <dex dex="D:\Android\app\XshellLib\Xinyusoft\zhlcs-cordova\build\intermediates\pre-dexed\release\xUtils-2.6.14_7f7f81cd6783e19da063fdec51cafbc3791fb5f4.jar" />
+    </item>
+    <item
+        jar="D:\Android\app\XshellLib\Xinyusoft\zhlcs-cordova\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="673d77a5bbddd766037f088e775df525c46407f0">
+        <dex dex="D:\Android\app\XshellLib\Xinyusoft\zhlcs-cordova\build\intermediates\pre-dexed\release\com.android.support-support-vector-drawable-23.2.1_06826f52a8805dbc2b1a66389df07a0f2c0d19c0.jar" />
+    </item>
+    <item
+        jar="D:\Android\app\XshellLib\Xinyusoft\zhlcs-cordova\build\intermediates\exploded-aar\Xinyusoft\luckviewLib\unspecified\jars\libs\commons-httpclient-3.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="b8a4a6b63e1fd4a5abb538715a0180b8178a6c30">
+        <dex dex="D:\Android\app\XshellLib\Xinyusoft\zhlcs-cordova\build\intermediates\pre-dexed\release\commons-httpclient-3.1_144369ed02f7a52811dcbc044148d7d90971db3f.jar" />
+    </item>
+    <item
+        jar="D:\Android\app\XshellLib\Xinyusoft\zhlcs-cordova\build\intermediates\exploded-aar\Xinyusoft\luckviewLib\unspecified\jars\libs\fastjson-1.1.39.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="dd4e46fb716304d4d092aaed9fc636c3b62a067d">
+        <dex dex="D:\Android\app\XshellLib\Xinyusoft\zhlcs-cordova\build\intermediates\pre-dexed\release\fastjson-1.1.39_0d0d8e17c0d400ef69f7bd95da5860b29494f247.jar" />
+    </item>
+    <item
+        jar="D:\Android\app\XshellLib\Xinyusoft\zhlcs-cordova\build\intermediates\exploded-aar\Xinyusoft\XshellLib\unspecified\jars\libs\autobahn-0.5.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="ea0d63a477b5b9ea471b1155925fa973691abc69">
+        <dex dex="D:\Android\app\XshellLib\Xinyusoft\zhlcs-cordova\build\intermediates\pre-dexed\release\autobahn-0.5.0_db569db0c5c30370eee925f0b1a9cd78a2a199c2.jar" />
+    </item>
+    <item
+        jar="D:\Android\app\XshellLib\Xinyusoft\zhlcs-cordova\build\intermediates\exploded-aar\Xinyusoft\XshellLib\unspecified\jars\libs\Xg_sdk_v2.43_20160308_1031.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="7492aed1dd3cd232935afe97b8c3233c55d5e91a">
+        <dex dex="D:\Android\app\XshellLib\Xinyusoft\zhlcs-cordova\build\intermediates\pre-dexed\release\Xg_sdk_v2.43_20160308_1031_944ddfce0cbe8113c4586ab497f99b1daaf5a64f.jar" />
+    </item>
+    <item
+        jar="D:\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.2.1\support-annotations-23.2.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="ccb693bc0774fcb637246f7360de25b4af7df318">
+        <dex dex="D:\Android\app\XshellLib\Xinyusoft\zhlcs-cordova\build\intermediates\pre-dexed\release\support-annotations-23.2.1_efd358856f7349d1a9ffd2b176d6d830be5c44c9.jar" />
+    </item>
+    <item
+        jar="D:\Android\app\XshellLib\Xinyusoft\zhlcs-cordova\build\intermediates\exploded-aar\Xinyusoft\XshellLib\unspecified\jars\libs\locSDK_6.23.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="ec8434b4e3cddc59a97f39902cb8ea20082c79d2">
+        <dex dex="D:\Android\app\XshellLib\Xinyusoft\zhlcs-cordova\build\intermediates\pre-dexed\release\locSDK_6.23_755f50c9ce8f17d502811558d0ad01ef339b42b2.jar" />
+    </item>
+    <item
+        jar="D:\Android\app\XshellLib\Xinyusoft\zhlcs-cordova\build\intermediates\exploded-aar\Xinyusoft\XshellLib\unspecified\jars\libs\alipaySdk-20160120.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="97b70027e97089c3ebd69391052db8c828790a97">
+        <dex dex="D:\Android\app\XshellLib\Xinyusoft\zhlcs-cordova\build\intermediates\pre-dexed\release\alipaySdk-20160120_dc2676da4bafaa803a9eaf1c57a91a5a5fcbe148.jar" />
+    </item>
+    <item
+        jar="D:\Android\app\XshellLib\Xinyusoft\zhlcs-cordova\build\intermediates\exploded-aar\Xinyusoft\XshellLib\unspecified\jars\libs\mid-sdk-2.20.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="45a9904ca0d6f8c5a6243c60646b59089ec12041">
+        <dex dex="D:\Android\app\XshellLib\Xinyusoft\zhlcs-cordova\build\intermediates\pre-dexed\release\mid-sdk-2.20_d5ae9be8a3342b9aaa21d2188ece6e72c2e6a3d1.jar" />
+    </item>
+    <item
+        jar="D:\Android\app\XshellLib\Xinyusoft\zhlcs-cordova\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="3be474b1b21b31cf2fa93fe6bd641ae108d96452">
+        <dex dex="D:\Android\app\XshellLib\Xinyusoft\zhlcs-cordova\build\intermediates\pre-dexed\release\com.android.support-support-v4-23.2.1_041c638c811a06f59fec5a87aec10a9e694e4508.jar" />
+    </item>
+    <item
+        jar="D:\Android\app\XshellLib\Xinyusoft\zhlcs-cordova\build\intermediates\exploded-aar\Xinyusoft\luckviewLib\unspecified\jars\libs\universal-image-loader-1.8.6-with-sources.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="b864c715c90c45ca999e4315b185a322e54bd736">
+        <dex dex="D:\Android\app\XshellLib\Xinyusoft\zhlcs-cordova\build\intermediates\pre-dexed\release\universal-image-loader-1.8.6-with-sources_0df148dcb259edb275cc4cc542c672e7fe931f48.jar" />
+    </item>
+    <item
+        jar="D:\Android\app\XshellLib\Xinyusoft\zhlcs-cordova\build\intermediates\exploded-aar\Xinyusoft\XshellLib\unspecified\jars\libs\jg_filter_sdk_1.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="42a158b8666bd8a6cd1443bc72816528df2058b4">
+        <dex dex="D:\Android\app\XshellLib\Xinyusoft\zhlcs-cordova\build\intermediates\pre-dexed\release\jg_filter_sdk_1.1_a455b16eaf245e39520d2ef98e8cea8b846f232f.jar" />
+    </item>
+    <item
+        jar="D:\Android\app\XshellLib\Xinyusoft\zhlcs-cordova\build\intermediates\exploded-aar\Xinyusoft\luckviewLib\unspecified\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="92f501bfdf589a522c76740fb5b0344f1e9e4930">
+        <dex dex="D:\Android\app\XshellLib\Xinyusoft\zhlcs-cordova\build\intermediates\pre-dexed\release\Xinyusoft-luckviewLib-unspecified_fb9d39bd7fd49b8b64ad75cf5c1213e6366adcc7.jar" />
+    </item>
+    <item
+        jar="D:\Android\app\XshellLib\Xinyusoft\zhlcs-cordova\build\intermediates\exploded-aar\Xinyusoft\FragmentTabLibrary\unspecified\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="76c7e59f8fda8a48d581cc32aa3bc3195b0a815a">
+        <dex dex="D:\Android\app\XshellLib\Xinyusoft\zhlcs-cordova\build\intermediates\pre-dexed\release\Xinyusoft-FragmentTabLibrary-unspecified_d0d17b11191ac557f06ead5e9607ab672ee78f45.jar" />
+    </item>
+
+</items>
