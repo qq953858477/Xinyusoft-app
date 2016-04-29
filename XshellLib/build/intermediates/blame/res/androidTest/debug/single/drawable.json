@@ -1,9 +1,5 @@
 [
     {
-        "merged": "D:\\Android\\app\\XshellLib\\Xinyusoft\\XshellLib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\bdp_update_progress_download.xml",
-        "source": "D:\\Android\\app\\XshellLib\\Xinyusoft\\XshellLib\\build\\intermediates\\exploded-aar\\Xinyusoft\\bDIntegrationSDK_LibProject\\unspecified\\res\\drawable\\bdp_update_progress_download.xml"
-    },
-    {
         "merged": "D:\\Android\\app\\XshellLib\\Xinyusoft\\XshellLib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\bac2.xml",
         "source": "D:\\Android\\app\\XshellLib\\Xinyusoft\\XshellLib\\build\\intermediates\\exploded-aar\\Xinyusoft\\luckviewLib\\unspecified\\res\\drawable\\bac2.xml"
     },
@@ -12,16 +8,16 @@
         "source": "D:\\Android\\app\\XshellLib\\Xinyusoft\\XshellLib\\build\\intermediates\\exploded-aar\\Xinyusoft\\luckviewLib\\unspecified\\res\\drawable\\background_tab.xml"
     },
     {
-        "merged": "D:\\Android\\app\\XshellLib\\Xinyusoft\\XshellLib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\xinyusoft_scan_line.png",
-        "source": "D:\\Android\\app\\XshellLib\\Xinyusoft\\XshellLib\\build\\intermediates\\bundles\\debug\\res\\drawable\\xinyusoft_scan_line.png"
-    },
-    {
         "merged": "D:\\Android\\app\\XshellLib\\Xinyusoft\\XshellLib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\xinyusoft_luckview_dialogok.xml",
         "source": "D:\\Android\\app\\XshellLib\\Xinyusoft\\XshellLib\\build\\intermediates\\exploded-aar\\Xinyusoft\\luckviewLib\\unspecified\\res\\drawable\\xinyusoft_luckview_dialogok.xml"
     },
     {
         "merged": "D:\\Android\\app\\XshellLib\\Xinyusoft\\XshellLib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\xinyusoft_preview.xml",
         "source": "D:\\Android\\app\\XshellLib\\Xinyusoft\\XshellLib\\build\\intermediates\\bundles\\debug\\res\\drawable\\xinyusoft_preview.xml"
+    },
+    {
+        "merged": "D:\\Android\\app\\XshellLib\\Xinyusoft\\XshellLib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\xinyusoft_scan_line.png",
+        "source": "D:\\Android\\app\\XshellLib\\Xinyusoft\\XshellLib\\build\\intermediates\\bundles\\debug\\res\\drawable\\xinyusoft_scan_line.png"
     },
     {
         "merged": "D:\\Android\\app\\XshellLib\\Xinyusoft\\XshellLib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\xinyusoft_scrollbar_handle_vertical.9.png",
@@ -36,16 +32,8 @@
         "source": "D:\\Android\\app\\XshellLib\\Xinyusoft\\XshellLib\\build\\intermediates\\bundles\\debug\\res\\drawable\\xinyusoft_capture.9.png"
     },
     {
-        "merged": "D:\\Android\\app\\XshellLib\\Xinyusoft\\XshellLib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\bdp_update_bg_dialog_btn.xml",
-        "source": "D:\\Android\\app\\XshellLib\\Xinyusoft\\XshellLib\\build\\intermediates\\exploded-aar\\Xinyusoft\\bDIntegrationSDK_LibProject\\unspecified\\res\\drawable\\bdp_update_bg_dialog_btn.xml"
-    },
-    {
         "merged": "D:\\Android\\app\\XshellLib\\Xinyusoft\\XshellLib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\xinyusoft_common_btn_red.xml",
         "source": "D:\\Android\\app\\XshellLib\\Xinyusoft\\XshellLib\\build\\intermediates\\bundles\\debug\\res\\drawable\\xinyusoft_common_btn_red.xml"
-    },
-    {
-        "merged": "D:\\Android\\app\\XshellLib\\Xinyusoft\\XshellLib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\bdp_update_bg_dialog_content.xml",
-        "source": "D:\\Android\\app\\XshellLib\\Xinyusoft\\XshellLib\\build\\intermediates\\exploded-aar\\Xinyusoft\\bDIntegrationSDK_LibProject\\unspecified\\res\\drawable\\bdp_update_bg_dialog_content.xml"
     },
     {
         "merged": "D:\\Android\\app\\XshellLib\\Xinyusoft\\XshellLib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\bac.xml",
@@ -64,16 +52,16 @@
         "source": "D:\\Android\\app\\XshellLib\\Xinyusoft\\XshellLib\\build\\intermediates\\bundles\\debug\\res\\drawable\\xinyusoft_skin_color_button.xml"
     },
     {
-        "merged": "D:\\Android\\app\\XshellLib\\Xinyusoft\\XshellLib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\bdp_update_bg_dialog_title.xml",
-        "source": "D:\\Android\\app\\XshellLib\\Xinyusoft\\XshellLib\\build\\intermediates\\exploded-aar\\Xinyusoft\\bDIntegrationSDK_LibProject\\unspecified\\res\\drawable\\bdp_update_bg_dialog_title.xml"
-    },
-    {
         "merged": "D:\\Android\\app\\XshellLib\\Xinyusoft\\XshellLib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\xinyusoft_luckview_wydh.xml",
         "source": "D:\\Android\\app\\XshellLib\\Xinyusoft\\XshellLib\\build\\intermediates\\exploded-aar\\Xinyusoft\\luckviewLib\\unspecified\\res\\drawable\\xinyusoft_luckview_wydh.xml"
     },
     {
         "merged": "D:\\Android\\app\\XshellLib\\Xinyusoft\\XshellLib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\xinyusoft_luckview_changedata.xml",
         "source": "D:\\Android\\app\\XshellLib\\Xinyusoft\\XshellLib\\build\\intermediates\\exploded-aar\\Xinyusoft\\luckviewLib\\unspecified\\res\\drawable\\xinyusoft_luckview_changedata.xml"
+    },
+    {
+        "merged": "D:\\Android\\app\\XshellLib\\Xinyusoft\\XshellLib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\xinyusoft_luckview_btnbg2.xml",
+        "source": "D:\\Android\\app\\XshellLib\\Xinyusoft\\XshellLib\\build\\intermediates\\exploded-aar\\Xinyusoft\\luckviewLib\\unspecified\\res\\drawable\\xinyusoft_luckview_btnbg2.xml"
     },
     {
         "merged": "D:\\Android\\app\\XshellLib\\Xinyusoft\\XshellLib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\xinyusoft_luckview_btnbg.xml",
@@ -86,5 +74,9 @@
     {
         "merged": "D:\\Android\\app\\XshellLib\\Xinyusoft\\XshellLib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\xinyusoft_luckview_ruleok.xml",
         "source": "D:\\Android\\app\\XshellLib\\Xinyusoft\\XshellLib\\build\\intermediates\\exploded-aar\\Xinyusoft\\luckviewLib\\unspecified\\res\\drawable\\xinyusoft_luckview_ruleok.xml"
+    },
+    {
+        "merged": "D:\\Android\\app\\XshellLib\\Xinyusoft\\XshellLib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\xinyusoft_luckview_userrule_et.xml",
+        "source": "D:\\Android\\app\\XshellLib\\Xinyusoft\\XshellLib\\build\\intermediates\\exploded-aar\\Xinyusoft\\luckviewLib\\unspecified\\res\\drawable\\xinyusoft_luckview_userrule_et.xml"
     }
 ]

@@ -2,7 +2,7 @@
 <resources>
     <color name="black">#ff000000</color>
     <color name="color_hei_8">#00000000</color>
-    <color name="colorful_status_bar">#5A3319</color>
+    <color name="colorful_status_bar">#5a3319</color>
     <color name="gesture_background">#ff303237</color>
     <color name="red">#ffff0000</color>
     <color name="white">#FFFFFF</color>

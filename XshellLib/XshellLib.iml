@@ -86,18 +86,17 @@
     <orderEntry type="library" exported="" name="xUtils-2.6.14" level="project" />
     <orderEntry type="library" exported="" name="mid-sdk-2.20" level="project" />
     <orderEntry type="library" exported="" name="sqlite4java" level="project" />
-    <orderEntry type="library" exported="" name="Xg_sdk_v2.39_20150915_1121" level="project" />
+    <orderEntry type="library" exported="" name="Xg_sdk_v2.43_20160308_1031" level="project" />
     <orderEntry type="library" exported="" name="alipaySdk-20160120" level="project" />
     <orderEntry type="library" exported="" name="autobahn-0.5.0" level="project" />
+    <orderEntry type="library" exported="" name="wup-1.0.0.E-SNAPSHOT" level="project" />
     <orderEntry type="library" exported="" name="support-annotations-23.2.1" level="project" />
-    <orderEntry type="library" exported="" name="locSDK_6.12" level="project" />
+    <orderEntry type="library" exported="" name="locSDK_6.23" level="project" />
     <orderEntry type="library" exported="" name="xinyusoftkeyboard" level="project" />
     <orderEntry type="library" exported="" name="jg_filter_sdk_1.1" level="project" />
-    <orderEntry type="library" exported="" name="wup-1.0.0-SNAPSHOT" level="project" />
     <orderEntry type="module" module-name="FragmentTabLibrary" exported="" />
     <orderEntry type="module" module-name="CordovaLib" exported="" />
     <orderEntry type="module" module-name="luckviewLib" exported="" />
-    <orderEntry type="module" module-name="bDIntegrationSDK_LibProject" exported="" />
     <orderEntry type="library" exported="" name="org.apache.http.legacy-android-23" level="project" />
   </component>
 </module>

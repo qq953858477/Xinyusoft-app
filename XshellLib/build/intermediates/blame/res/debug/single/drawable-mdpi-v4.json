@@ -8,10 +8,6 @@
         "source": "D:\\Android\\app\\XshellLib\\Xinyusoft\\XshellLib\\build\\intermediates\\exploded-aar\\Xinyusoft\\luckviewLib\\unspecified\\res\\drawable-mdpi-v4\\ic_launcher.png"
     },
     {
-        "merged": "D:\\Android\\app\\XshellLib\\Xinyusoft\\XshellLib\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\bdp_update_logo.png",
-        "source": "D:\\Android\\app\\XshellLib\\Xinyusoft\\XshellLib\\build\\intermediates\\exploded-aar\\Xinyusoft\\bDIntegrationSDK_LibProject\\unspecified\\res\\drawable-mdpi-v4\\bdp_update_logo.png"
-    },
-    {
         "merged": "D:\\Android\\app\\XshellLib\\Xinyusoft\\XshellLib\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\vpi__tab_selected_holo.9.png",
         "source": "D:\\Android\\app\\XshellLib\\Xinyusoft\\XshellLib\\build\\intermediates\\exploded-aar\\Xinyusoft\\FragmentTabLibrary\\unspecified\\res\\drawable-mdpi-v4\\vpi__tab_selected_holo.9.png"
     },

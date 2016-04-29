@@ -47,9 +47,10 @@
         android:layout_marginTop="35dp"
         android:background="@drawable/xinyusoft_luckview_btnbg"
         android:gravity="center"
-        android:paddingBottom="10dp"
-        android:paddingTop="10dp"
+        android:paddingBottom="15dp"
+        android:paddingTop="15dp"
         android:text="返回幸运大转盘"
+        android:textSize="17sp"
         android:textColor="@color/luckview_act_bg" />
 
 </LinearLayout>

@@ -110,9 +110,9 @@ public class AliPayPlugin extends CordovaPlugin {
 //						+ getSignType();
 				
 				//content + "&sign=\"" +sign+"\"&sign_type=\"RSA\""
-				String data = args.getString(0);
+				final String data = args.getString(0);
 				JSONObject json = new JSONObject(data);
-				String orderinfo=getOrderInfo(json);
+
 				callbackName = args.getString(1);
 				Runnable payRunnable = new Runnable() {
 
@@ -121,7 +121,7 @@ public class AliPayPlugin extends CordovaPlugin {
 						// 构造PayTask 对象
 						PayTask alipay = new PayTask(cordova.getActivity());
 						// 调用支付接口，获取支付结果
-						String result = alipay.pay(payInfo,true);
+						String result = alipay.pay(data,true);
 
 						Message msg = new Message();
 						msg.what = SDK_PAY_FLAG;

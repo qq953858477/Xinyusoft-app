@@ -16,10 +16,6 @@
         "source": "D:\\Android\\app\\XshellLib\\Xinyusoft\\XshellLib\\build\\intermediates\\exploded-aar\\Xinyusoft\\luckviewLib\\unspecified\\res\\drawable-hdpi-v4\\xinyusoft_luckview_jinbi.png"
     },
     {
-        "merged": "D:\\Android\\app\\XshellLib\\Xinyusoft\\XshellLib\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\xinyusoft_luckview_mainbtn.png",
-        "source": "D:\\Android\\app\\XshellLib\\Xinyusoft\\XshellLib\\build\\intermediates\\exploded-aar\\Xinyusoft\\luckviewLib\\unspecified\\res\\drawable-hdpi-v4\\xinyusoft_luckview_mainbtn.png"
-    },
-    {
         "merged": "D:\\Android\\app\\XshellLib\\Xinyusoft\\XshellLib\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\xinyusoft_luckview_den2.png",
         "source": "D:\\Android\\app\\XshellLib\\Xinyusoft\\XshellLib\\build\\intermediates\\exploded-aar\\Xinyusoft\\luckviewLib\\unspecified\\res\\drawable-hdpi-v4\\xinyusoft_luckview_den2.png"
     },
@@ -88,6 +84,10 @@
         "source": "D:\\Android\\app\\XshellLib\\Xinyusoft\\XshellLib\\src\\main\\res\\drawable-hdpi\\xinyusoft_keyboard_btn_normal.png"
     },
     {
+        "merged": "D:\\Android\\app\\XshellLib\\Xinyusoft\\XshellLib\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\xinyusoft_luckview_issuance.png",
+        "source": "D:\\Android\\app\\XshellLib\\Xinyusoft\\XshellLib\\build\\intermediates\\exploded-aar\\Xinyusoft\\luckviewLib\\unspecified\\res\\drawable-hdpi-v4\\xinyusoft_luckview_issuance.png"
+    },
+    {
         "merged": "D:\\Android\\app\\XshellLib\\Xinyusoft\\XshellLib\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\xinyusoft_ic_action_remove.png",
         "source": "D:\\Android\\app\\XshellLib\\Xinyusoft\\XshellLib\\src\\main\\res\\drawable-hdpi\\xinyusoft_ic_action_remove.png"
     },
@@ -96,12 +96,12 @@
         "source": "D:\\Android\\app\\XshellLib\\Xinyusoft\\XshellLib\\build\\intermediates\\exploded-aar\\Xinyusoft\\luckviewLib\\unspecified\\res\\drawable-hdpi-v4\\xinyusoft_luckview_centerimg.png"
     },
     {
-        "merged": "D:\\Android\\app\\XshellLib\\Xinyusoft\\XshellLib\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_error.png",
-        "source": "D:\\Android\\app\\XshellLib\\Xinyusoft\\XshellLib\\build\\intermediates\\exploded-aar\\Xinyusoft\\luckviewLib\\unspecified\\res\\drawable-hdpi-v4\\ic_error.png"
-    },
-    {
         "merged": "D:\\Android\\app\\XshellLib\\Xinyusoft\\XshellLib\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\xinyusoft_shape_input_area.xml",
         "source": "D:\\Android\\app\\XshellLib\\Xinyusoft\\XshellLib\\src\\main\\res\\drawable-hdpi\\xinyusoft_shape_input_area.xml"
+    },
+    {
+        "merged": "D:\\Android\\app\\XshellLib\\Xinyusoft\\XshellLib\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_error.png",
+        "source": "D:\\Android\\app\\XshellLib\\Xinyusoft\\XshellLib\\build\\intermediates\\exploded-aar\\Xinyusoft\\luckviewLib\\unspecified\\res\\drawable-hdpi-v4\\ic_error.png"
     },
     {
         "merged": "D:\\Android\\app\\XshellLib\\Xinyusoft\\XshellLib\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\xinyusoft_keyboard_jp_ch.png",
@@ -152,8 +152,8 @@
         "source": "D:\\Android\\app\\XshellLib\\Xinyusoft\\XshellLib\\src\\main\\res\\drawable-hdpi\\xinyusoft_icon_clean.png"
     },
     {
-        "merged": "D:\\Android\\app\\XshellLib\\Xinyusoft\\XshellLib\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\xinyusoft_luckview_danfan.png",
-        "source": "D:\\Android\\app\\XshellLib\\Xinyusoft\\XshellLib\\build\\intermediates\\exploded-aar\\Xinyusoft\\luckviewLib\\unspecified\\res\\drawable-hdpi-v4\\xinyusoft_luckview_danfan.png"
+        "merged": "D:\\Android\\app\\XshellLib\\Xinyusoft\\XshellLib\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\xinyusoft_luckview_right.png",
+        "source": "D:\\Android\\app\\XshellLib\\Xinyusoft\\XshellLib\\build\\intermediates\\exploded-aar\\Xinyusoft\\luckviewLib\\unspecified\\res\\drawable-hdpi-v4\\xinyusoft_luckview_right.png"
     },
     {
         "merged": "D:\\Android\\app\\XshellLib\\Xinyusoft\\XshellLib\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\xinyusoft_luckview_myscore.png",
@@ -180,6 +180,10 @@
         "source": "D:\\Android\\app\\XshellLib\\Xinyusoft\\XshellLib\\build\\intermediates\\exploded-aar\\Xinyusoft\\luckviewLib\\unspecified\\res\\drawable-hdpi-v4\\xinyusoft_luckview_music_close.png"
     },
     {
+        "merged": "D:\\Android\\app\\XshellLib\\Xinyusoft\\XshellLib\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\xinyusoft_luckview_gou.png",
+        "source": "D:\\Android\\app\\XshellLib\\Xinyusoft\\XshellLib\\build\\intermediates\\exploded-aar\\Xinyusoft\\luckviewLib\\unspecified\\res\\drawable-hdpi-v4\\xinyusoft_luckview_gou.png"
+    },
+    {
         "merged": "D:\\Android\\app\\XshellLib\\Xinyusoft\\XshellLib\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\xinyusoft_luckview_backbg.png",
         "source": "D:\\Android\\app\\XshellLib\\Xinyusoft\\XshellLib\\build\\intermediates\\exploded-aar\\Xinyusoft\\luckviewLib\\unspecified\\res\\drawable-hdpi-v4\\xinyusoft_luckview_backbg.png"
     },
@@ -194,10 +198,6 @@
     {
         "merged": "D:\\Android\\app\\XshellLib\\Xinyusoft\\XshellLib\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\xinyusoft_selector_key_del.xml",
         "source": "D:\\Android\\app\\XshellLib\\Xinyusoft\\XshellLib\\src\\main\\res\\drawable-hdpi\\xinyusoft_selector_key_del.xml"
-    },
-    {
-        "merged": "D:\\Android\\app\\XshellLib\\Xinyusoft\\XshellLib\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\xinyusoft_luckview_giftbox.png",
-        "source": "D:\\Android\\app\\XshellLib\\Xinyusoft\\XshellLib\\build\\intermediates\\exploded-aar\\Xinyusoft\\luckviewLib\\unspecified\\res\\drawable-hdpi-v4\\xinyusoft_luckview_giftbox.png"
     },
     {
         "merged": "D:\\Android\\app\\XshellLib\\Xinyusoft\\XshellLib\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\vpi__tab_unselected_focused_holo.9.png",

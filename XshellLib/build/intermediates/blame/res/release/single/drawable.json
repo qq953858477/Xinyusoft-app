@@ -4,16 +4,16 @@
         "source": "D:\\Android\\app\\XshellLib\\Xinyusoft\\XshellLib\\src\\main\\res\\drawable\\xinyusoft_skin_color_button.xml"
     },
     {
-        "merged": "D:\\Android\\app\\XshellLib\\Xinyusoft\\XshellLib\\build\\intermediates\\res\\merged\\release\\drawable\\bdp_update_progress_download.xml",
-        "source": "D:\\Android\\app\\XshellLib\\Xinyusoft\\XshellLib\\build\\intermediates\\exploded-aar\\Xinyusoft\\bDIntegrationSDK_LibProject\\unspecified\\res\\drawable\\bdp_update_progress_download.xml"
-    },
-    {
         "merged": "D:\\Android\\app\\XshellLib\\Xinyusoft\\XshellLib\\build\\intermediates\\res\\merged\\release\\drawable\\xinyusoft_common_btn_red.xml",
         "source": "D:\\Android\\app\\XshellLib\\Xinyusoft\\XshellLib\\src\\main\\res\\drawable\\xinyusoft_common_btn_red.xml"
     },
     {
         "merged": "D:\\Android\\app\\XshellLib\\Xinyusoft\\XshellLib\\build\\intermediates\\res\\merged\\release\\drawable\\xinyusoft_luckview_btnbg.xml",
         "source": "D:\\Android\\app\\XshellLib\\Xinyusoft\\XshellLib\\build\\intermediates\\exploded-aar\\Xinyusoft\\luckviewLib\\unspecified\\res\\drawable\\xinyusoft_luckview_btnbg.xml"
+    },
+    {
+        "merged": "D:\\Android\\app\\XshellLib\\Xinyusoft\\XshellLib\\build\\intermediates\\res\\merged\\release\\drawable\\xinyusoft_luckview_userrule_et.xml",
+        "source": "D:\\Android\\app\\XshellLib\\Xinyusoft\\XshellLib\\build\\intermediates\\exploded-aar\\Xinyusoft\\luckviewLib\\unspecified\\res\\drawable\\xinyusoft_luckview_userrule_et.xml"
     },
     {
         "merged": "D:\\Android\\app\\XshellLib\\Xinyusoft\\XshellLib\\build\\intermediates\\res\\merged\\release\\drawable\\xinyusoft_scan_mask.png",
@@ -32,12 +32,12 @@
         "source": "D:\\Android\\app\\XshellLib\\Xinyusoft\\XshellLib\\build\\intermediates\\exploded-aar\\Xinyusoft\\luckviewLib\\unspecified\\res\\drawable\\bac.xml"
     },
     {
-        "merged": "D:\\Android\\app\\XshellLib\\Xinyusoft\\XshellLib\\build\\intermediates\\res\\merged\\release\\drawable\\xinyusoft_luckview_wydh.xml",
-        "source": "D:\\Android\\app\\XshellLib\\Xinyusoft\\XshellLib\\build\\intermediates\\exploded-aar\\Xinyusoft\\luckviewLib\\unspecified\\res\\drawable\\xinyusoft_luckview_wydh.xml"
-    },
-    {
         "merged": "D:\\Android\\app\\XshellLib\\Xinyusoft\\XshellLib\\build\\intermediates\\res\\merged\\release\\drawable\\background_tab.xml",
         "source": "D:\\Android\\app\\XshellLib\\Xinyusoft\\XshellLib\\build\\intermediates\\exploded-aar\\Xinyusoft\\luckviewLib\\unspecified\\res\\drawable\\background_tab.xml"
+    },
+    {
+        "merged": "D:\\Android\\app\\XshellLib\\Xinyusoft\\XshellLib\\build\\intermediates\\res\\merged\\release\\drawable\\xinyusoft_luckview_wydh.xml",
+        "source": "D:\\Android\\app\\XshellLib\\Xinyusoft\\XshellLib\\build\\intermediates\\exploded-aar\\Xinyusoft\\luckviewLib\\unspecified\\res\\drawable\\xinyusoft_luckview_wydh.xml"
     },
     {
         "merged": "D:\\Android\\app\\XshellLib\\Xinyusoft\\XshellLib\\build\\intermediates\\res\\merged\\release\\drawable\\xinyusoft_preview.xml",
@@ -48,10 +48,6 @@
         "source": "D:\\Android\\app\\XshellLib\\Xinyusoft\\XshellLib\\src\\main\\res\\drawable\\xinyusoft_capture.9.png"
     },
     {
-        "merged": "D:\\Android\\app\\XshellLib\\Xinyusoft\\XshellLib\\build\\intermediates\\res\\merged\\release\\drawable\\bdp_update_bg_dialog_title.xml",
-        "source": "D:\\Android\\app\\XshellLib\\Xinyusoft\\XshellLib\\build\\intermediates\\exploded-aar\\Xinyusoft\\bDIntegrationSDK_LibProject\\unspecified\\res\\drawable\\bdp_update_bg_dialog_title.xml"
-    },
-    {
         "merged": "D:\\Android\\app\\XshellLib\\Xinyusoft\\XshellLib\\build\\intermediates\\res\\merged\\release\\drawable\\vpi__tab_indicator.xml",
         "source": "D:\\Android\\app\\XshellLib\\Xinyusoft\\XshellLib\\build\\intermediates\\exploded-aar\\Xinyusoft\\FragmentTabLibrary\\unspecified\\res\\drawable\\vpi__tab_indicator.xml"
     },
@@ -60,16 +56,12 @@
         "source": "D:\\Android\\app\\XshellLib\\Xinyusoft\\XshellLib\\src\\main\\res\\drawable\\xinyusoft_scan_line.png"
     },
     {
-        "merged": "D:\\Android\\app\\XshellLib\\Xinyusoft\\XshellLib\\build\\intermediates\\res\\merged\\release\\drawable\\bdp_update_bg_dialog_content.xml",
-        "source": "D:\\Android\\app\\XshellLib\\Xinyusoft\\XshellLib\\build\\intermediates\\exploded-aar\\Xinyusoft\\bDIntegrationSDK_LibProject\\unspecified\\res\\drawable\\bdp_update_bg_dialog_content.xml"
-    },
-    {
         "merged": "D:\\Android\\app\\XshellLib\\Xinyusoft\\XshellLib\\build\\intermediates\\res\\merged\\release\\drawable\\xinyusoft_btn_keyboard_key.xml",
         "source": "D:\\Android\\app\\XshellLib\\Xinyusoft\\XshellLib\\src\\main\\res\\drawable\\xinyusoft_btn_keyboard_key.xml"
     },
     {
-        "merged": "D:\\Android\\app\\XshellLib\\Xinyusoft\\XshellLib\\build\\intermediates\\res\\merged\\release\\drawable\\bdp_update_bg_dialog_btn.xml",
-        "source": "D:\\Android\\app\\XshellLib\\Xinyusoft\\XshellLib\\build\\intermediates\\exploded-aar\\Xinyusoft\\bDIntegrationSDK_LibProject\\unspecified\\res\\drawable\\bdp_update_bg_dialog_btn.xml"
+        "merged": "D:\\Android\\app\\XshellLib\\Xinyusoft\\XshellLib\\build\\intermediates\\res\\merged\\release\\drawable\\xinyusoft_luckview_btnbg2.xml",
+        "source": "D:\\Android\\app\\XshellLib\\Xinyusoft\\XshellLib\\build\\intermediates\\exploded-aar\\Xinyusoft\\luckviewLib\\unspecified\\res\\drawable\\xinyusoft_luckview_btnbg2.xml"
     },
     {
         "merged": "D:\\Android\\app\\XshellLib\\Xinyusoft\\XshellLib\\build\\intermediates\\res\\merged\\release\\drawable\\xinyusoft_luckview_changedata.xml",

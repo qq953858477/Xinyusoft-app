@@ -142,18 +142,14 @@ public class LoadingActivity extends Activity {
                 // -1解析appconfig
                 configInfo = ParseConfig.getInstance(LoadingActivity.this).getConfigInfo();
 
-                final int resid = getResources().getIdentifier(configInfo.get("app-guide"), "drawable", getPackageName());
+                //final int resid = getResources().getIdentifier(configInfo.get("app-guide"), "drawable", getPackageName());
 
                 runOnUiThread(new Runnable() {
                     public void run() {
-                        splash_main.setBackgroundResource(resid);
+                        splash_main.setBackgroundResource(R.drawable.launch_image_port);
                         // splash_main.setBackgroundResource(R.drawable.xinyusoft_gesture_guide_pic);
                     }
                 });
-                if (AppConfig.DEBUG) {
-                    Log.i("zzy", "VersionUtil.getVersionCode(context):" + VersionUtil.getVersionCode(context));
-                    Log.i("zzy", "getAppThisCode:" + PreferenceUtil.getInstance().getAppThisCode());
-                }
 
                 // 判断是否覆盖安装了，是的话，重新解压并且重新设置时间
                 if (VersionUtil.getVersionCode(context) > PreferenceUtil.getInstance().getAppThisCode()) {

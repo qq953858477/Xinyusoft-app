@@ -3,16 +3,17 @@
     <color name="background_tab_pressed">#88c67e21</color>
     <color name="black">#ff000000</color>
     <color name="color_hei_8">#00000000</color>
-    <color name="colorful_status_bar">#5A3319</color>
     <color name="font_black">#333333</color>
     <color name="font_gray_black">#777777</color>
     <color name="gesture_background">#ff303237</color>
-    <color name="luckview_act_bg">#fdfaf6</color>
+    <color name="luckview_act_bg">#eef2f6</color>
+    <color name="luckview_colorful_status_bar">#2e6bb1</color>
+    <color name="luckview_colorful_status_bar_main">#1c4982</color>
     <color name="luckview_main_btn">#532407</color>
     <color name="luckview_stocklist_down">#0f870f</color>
     <color name="luckview_stocklist_normal">#333333</color>
     <color name="luckview_stocklist_up">#F63046</color>
-    <color name="luckview_title">#c67e21</color>
+    <color name="luckview_title">#589bfd</color>
     <color name="red">#ffff0000</color>
     <color name="white">#FFFFFF</color>
     <declare-styleable name="PagerSlidingTabStrip"><attr format="color" name="pstsIndicatorColor"/><attr format="color" name="pstsUnderlineColor"/><attr format="color" name="pstsDividerColor"/><attr format="dimension" name="pstsIndicatorHeight"/><attr format="dimension" name="pstsUnderlineHeight"/><attr format="dimension" name="pstsDividerPadding"/><attr format="dimension" name="pstsTabPaddingLeftRight"/><attr format="dimension" name="pstsScrollOffset"/><attr format="reference" name="pstsTabBackground"/><attr format="boolean" name="pstsShouldExpand"/><attr format="boolean" name="pstsTextAllCaps"/><attr format="color" name="selectedTabTextColor"/></declare-styleable>
@@ -25,6 +26,8 @@
     <string name="luckview_rule_4">\t\t\t\t4.积分累计10积分以上可随时充话费，积分累计100积分以上可随时充流量</string>
     <string name="luckview_rule_5">\t\t\t\t5.充值话费会消耗10积分的整数倍，比如你当前可用积分为64.22，充值话费之后，会消耗60积分。充值流量会消耗100积分的整数倍，比如你当前可用积分为414.22，充值流量之后，会消耗400积分。</string>
     <string name="luvkview_friend_score"><font color="red">600.34</font>积分</string>
+    <string name="title_activity_luckview_more_price">LuckviewMorePriceActivity</string>
+    <string name="xinyusoft_luckview_rule"><u>活动规则</u></string>
     <style name="AppBaseTheme" parent="android:Theme.Light">
         <!--
             Theme customizations available in newer API levels can go in

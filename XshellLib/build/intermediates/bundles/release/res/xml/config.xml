@@ -8,6 +8,42 @@
         name="loglevel"
         value="DEBUG" />
 
+
+    <allow-intent href="market:*" />
+
+    <name>
+        HelloWorld
+    </name>
+
+    <description>
+        A sample Apache Cordova application that responds to the deviceready event.
+    </description>
+
+    <author
+        email="dev@cordova.apache.org"
+        href="http://cordova.io" >
+        Apache Cordova Team
+    </author>
+
+    <content src="index.html" />
+
+    <access origin="*" />
+
+    <allow-navigation href="*" />
+    <allow-navigation href="file://*" />
+
+    <allow-intent href="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+
+    <preference
+        name="LoadUrlTimeoutValue"
+        value="60000000" />
+
     <feature name="Whitelist" >
         <param
             name="android-package"
@@ -87,36 +123,11 @@
             value="com.xinyusoft.xshelllib.plugin.SqliteUserPlugin" />
     </feature>
 
-    <allow-intent href="market:*" />
-
-    <name>
-HelloWorld
-    </name>
-
-    <description>
-        A sample Apache Cordova application that responds to the deviceready event.
-    </description>
-
-    <author
-        email="dev@cordova.apache.org"
-        href="http://cordova.io" >
-        Apache Cordova Team
-    </author>
-
-    <content src="index.html" />
-
-    <access origin="*" />
-
-    <allow-navigation href="*" />
-    <allow-navigation href="file://*" />
-
-    <allow-intent href="*" />
-    <allow-intent href="http://*/*" />
-    <allow-intent href="https://*/*" />
-    <allow-intent href="tel:*" />
-    <allow-intent href="sms:*" />
-    <allow-intent href="mailto:*" />
-    <allow-intent href="geo:*" />
+    <feature name="AlipayPlugin" >
+        <param
+            name="android-package"
+            value="com.xinyusoft.xshelllib.plugin.AliPayPlugin" />
+    </feature>
 
     <feature name="SplashScreen" >
         <param
@@ -136,18 +147,6 @@ HelloWorld
             name="android-package"
             value="org.apache.cordova.dialogs.Notification" />
     </feature>
-
-    <preference
-        name="LoadUrlTimeoutValue"
-        value="60000000" />
-    <!--
-         <preference
-        name="SplashScreen"
-        value="ic_excess" />
-    -->
-    <preference
-        name="SplashScreenDelay"
-        value="1000" />
 
     <feature name="SQLitePlugin" >
         <param

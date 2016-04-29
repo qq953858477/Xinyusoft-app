@@ -64,10 +64,6 @@
         "source": "D:\\Android\\app\\XshellLib\\Xinyusoft\\XshellLib\\src\\main\\res\\drawable-xhdpi\\xinyusoft_lock_select_wrong.png"
     },
     {
-        "merged": "D:\\Android\\app\\XshellLib\\Xinyusoft\\XshellLib\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\xinyusoft_luckview_button3.png",
-        "source": "D:\\Android\\app\\XshellLib\\Xinyusoft\\XshellLib\\build\\intermediates\\exploded-aar\\Xinyusoft\\luckviewLib\\unspecified\\res\\drawable-xhdpi-v4\\xinyusoft_luckview_button3.png"
-    },
-    {
         "merged": "D:\\Android\\app\\XshellLib\\Xinyusoft\\XshellLib\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\xinyusoft_luckview_button1_grey.png",
         "source": "D:\\Android\\app\\XshellLib\\Xinyusoft\\XshellLib\\build\\intermediates\\exploded-aar\\Xinyusoft\\luckviewLib\\unspecified\\res\\drawable-xhdpi-v4\\xinyusoft_luckview_button1_grey.png"
     },
@@ -92,6 +88,10 @@
         "source": "D:\\Android\\app\\XshellLib\\Xinyusoft\\XshellLib\\src\\main\\res\\drawable-xhdpi\\xinyusoft_gesture_create_grid_bg.png"
     },
     {
+        "merged": "D:\\Android\\app\\XshellLib\\Xinyusoft\\XshellLib\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\xinyusoft_luckview_toggle_on.png",
+        "source": "D:\\Android\\app\\XshellLib\\Xinyusoft\\XshellLib\\build\\intermediates\\exploded-aar\\Xinyusoft\\luckviewLib\\unspecified\\res\\drawable-xhdpi-v4\\xinyusoft_luckview_toggle_on.png"
+    },
+    {
         "merged": "D:\\Android\\app\\XshellLib\\Xinyusoft\\XshellLib\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\xinyusoft_gesture_guide_pic.png",
         "source": "D:\\Android\\app\\XshellLib\\Xinyusoft\\XshellLib\\src\\main\\res\\drawable-xhdpi\\xinyusoft_gesture_guide_pic.png"
     },
@@ -114,5 +114,9 @@
     {
         "merged": "D:\\Android\\app\\XshellLib\\Xinyusoft\\XshellLib\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\launch_image_port.png",
         "source": "D:\\Android\\app\\XshellLib\\Xinyusoft\\XshellLib\\src\\main\\res\\drawable-xhdpi\\launch_image_port.png"
+    },
+    {
+        "merged": "D:\\Android\\app\\XshellLib\\Xinyusoft\\XshellLib\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\xinyusoft_luckview_toggle_off.png",
+        "source": "D:\\Android\\app\\XshellLib\\Xinyusoft\\XshellLib\\build\\intermediates\\exploded-aar\\Xinyusoft\\luckviewLib\\unspecified\\res\\drawable-xhdpi-v4\\xinyusoft_luckview_toggle_off.png"
     }
 ]
