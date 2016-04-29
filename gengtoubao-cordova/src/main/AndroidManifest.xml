@@ -2,8 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.xinyusoft.gentoubao"
     android:hardwareAccelerated="true"
-    android:versionCode="103"
-    android:versionName="1.0.3" >
+    >
 
     <!-- xinyusoft start -->
     <supports-screens
@@ -165,36 +164,63 @@
             android:process=":xinyu_remote"
             android:screenOrientation="portrait"
             android:theme="@style/Theme"
-            android:windowSoftInputMode="adjustResize" >
-        </activity>
+            android:windowSoftInputMode="adjustResize"/>
         <activity
             android:name="com.xinyusoft.xshell.luckview.activity.LuckViewRuleActivity"
             android:process=":xinyu_remote"
-            android:screenOrientation="portrait" >
-        </activity>
+            android:screenOrientation="portrait"/>
         <activity
             android:name="com.xinyusoft.xshell.luckview.activity.LuckViewUserInfoActivity"
             android:process=":xinyu_remote"
-            android:screenOrientation="portrait" >
-        </activity>
+            android:screenOrientation="portrait"/>
         <activity
             android:name="com.xinyusoft.xshell.luckview.activity.LuckViewJFOKActivity"
             android:process=":xinyu_remote"
-            android:screenOrientation="portrait" >
-        </activity>
-
+            android:screenOrientation="portrait"/>
         <activity
-            android:name="com.xinyusoft.xshell.luckview.friendscore.ImagePagerActivity"
+            android:name="com.xinyusoft.xshell.luckview.activity.LuckViewStockListActivity"
             android:process=":xinyu_remote"
             android:screenOrientation="portrait"
-            android:theme="@style/Theme" >
-        </activity>
+            android:theme="@style/Theme"/>
         <activity
             android:name="com.xinyusoft.xshell.luckview.activity.LuckViewExchangeActivity"
             android:process=":xinyu_remote"
             android:screenOrientation="portrait"
-            android:theme="@style/Theme" >
-        </activity>
+            android:theme="@style/Theme"/>
+
+        <activity
+            android:name="com.xinyusoft.xshell.luckview.activity.LuckViewMorePriceActivity"
+            android:process=":xinyu_remote"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme"/>
+        <activity
+            android:name="com.xinyusoft.xshell.luckview.activity.LuckViewIssuanceActivity"
+            android:process=":xinyu_remote"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme"/>
+
+        <activity
+            android:name="com.xinyusoft.xshell.luckview.activity.LuckViewIssuanceRuleActivity"
+            android:process=":xinyu_remote"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme"/>
+
+        <activity
+            android:name="com.xinyusoft.xshell.luckview.activity.LuckViewIssuancePriceSettingActivity"
+            android:process=":xinyu_remote"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme"/>
+        <activity
+            android:name="com.xinyusoft.xshell.luckview.activity.LuckViewIssuanceSettingImgActivity"
+            android:process=":xinyu_remote"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme"/>
+
+        <activity
+            android:name="com.xinyusoft.xshell.luckview.activity.LuckViewIssuanceOkActivity"
+            android:process=":xinyu_remote"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme"/>
 
         <!-- 大转盘相关界面Activity ↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑ -->
 
@@ -203,6 +229,18 @@
 
 
         <!-- 信鸽相关 start -->
+        <!-- 【必须】 信鸽service -->
+        <!-- 【必须】 (2.30及以上版新增)展示通知的activity -->
+        <activity
+            android:name="com.tencent.android.tpush.XGPushActivity"
+            android:theme="@android:style/Theme.Translucent"
+            android:exported="false" >
+            <intent-filter>
+                <!-- 若使用AndroidStudio，请设置android:name="android.intent.action"-->
+                <action android:name="android.intent.action" />
+            </intent-filter>
+        </activity>
+
         <!-- 【必须】 信鸽receiver广播接收 -->
         <receiver
             android:name="com.tencent.android.tpush.XGPushReceiver"
@@ -212,30 +250,29 @@
                 <!-- 【必须】 信鸽SDK的内部广播 -->
                 <action android:name="com.tencent.android.tpush.action.SDK" />
                 <action android:name="com.tencent.android.tpush.action.INTERNAL_PUSH_MESSAGE" />
-                <!-- 【必须】 系统广播：开屏和网络切换 -->
-                <action android:name="android.intent.action.USER_PRESENT" />
+                <!-- 【必须】 系统广播：网络切换 -->
                 <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+
+                <!-- 【可选】 系统广播：开屏 -->
+                <action android:name="android.intent.action.USER_PRESENT" />
 
                 <!-- 【可选】 一些常用的系统广播，增强信鸽service的复活机会，请根据需要选择。当然，你也可以添加APP自定义的一些广播让启动service -->
                 <action android:name="android.bluetooth.adapter.action.STATE_CHANGED" />
                 <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
                 <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
             </intent-filter>
+            <!-- 【可选】 usb相关的系统广播，增强信鸽service的复活机会，请根据需要添加 -->
+            <intent-filter android:priority="0x7fffffff" >
+                <action android:name="android.intent.action.MEDIA_UNMOUNTED" />
+                <action android:name="android.intent.action.MEDIA_REMOVED" />
+                <action android:name="android.intent.action.MEDIA_CHECKING" />
+                <action android:name="android.intent.action.MEDIA_EJECT" />
+
+                <data android:scheme="file" />
+            </intent-filter>
         </receiver>
 
-        <!-- 【必须】 (2.30及以上版新增)展示通知的activity -->
-        <!-- 【注意】 如果被打开的activity是启动模式为SingleTop，SingleTask或SingleInstance，请根据通知的异常自查列表第8点处理 -->
-        <activity
-            android:name="com.tencent.android.tpush.XGPushActivity"
-            android:exported="true" >
-            <intent-filter>
 
-                <!-- 若使用AndroidStudio，请设置android:name="android.intent.action" -->
-                <action android:name="android.intent.action" />
-            </intent-filter>
-        </activity>
-
-        <!-- 【必须】 信鸽service -->
         <service
             android:name="com.tencent.android.tpush.service.XGPushService"
             android:exported="true"
@@ -245,17 +282,18 @@
         <!-- 【必须】 通知service，此选项有助于提高抵达率 -->
         <service
             android:name="com.tencent.android.tpush.rpc.XGRemoteService"
-            android:exported="true" >
+            android:exported="true">
             <intent-filter>
-                <action android:name="com.xinyusoft.uulcs.PUSH_ACTION" />
+                <action android:name="com.xinyusoft.xshell.PUSH_ACTION" />
             </intent-filter>
         </service>
 
+
         <!-- 【可选】APP实现的Receiver，用于接收消息透传和操作结果的回调，请根据需要添加 -->
         <!-- YOUR_PACKAGE_PATH.CustomPushReceiver需要改为自己的Receiver： -->
-        <receiver android:name="com.xinyusoft.xshelllib.receiver.NotificatinReceiver" >
+        <receiver android:name="com.xinyusoft.xshelllib.receiver.NotificatinReceiver"
+            android:exported="false" >
             <intent-filter>
-
                 <!-- 接收消息透传 -->
                 <action android:name="com.tencent.android.tpush.action.PUSH_MESSAGE" />
                 <!-- 监听注册、反注册、设置/删除标签、通知被点击等处理结果 -->
@@ -292,34 +330,6 @@
         <!-- 百度地图 end -->
 
 
-        <!-- 百度自动更新 star↓↓↓↓↓↓ -->
-
-        <meta-data
-            android:name="BDAPPID"
-            android:value="6843173" />
-        <meta-data
-            android:name="BDAPPKEY"
-            android:value="g2tbAhvzPUU8zZQ8A617ZpoS" />
-
-        <activity
-            android:name="com.baidu.autoupdatesdk.ConfirmDialoigActivity"
-            android:exported="false"
-            android:screenOrientation="sensor"
-            android:theme="@style/bdp_update_dialog_style_fullscreen" />
-
-        <receiver
-            android:name="com.baidu.autoupdatesdk.receiver.BDBroadcastReceiver"
-            android:exported="false" >
-            <intent-filter>
-                <action android:name="com.baidu.autoupdatesdk.ACTION_NEW_UPDATE" />
-                <action android:name="com.baidu.autoupdatesdk.ACTION_DOWNLOAD_COMPLETE" />
-                <action android:name="com.baidu.autoupdatesdk.ACTION_NEW_AS" />
-                <action android:name="com.baidu.autoupdatesdk.ACTION_AS_DOWNLOAD_COMPLETE" />
-            </intent-filter>
-        </receiver>
-
-        <!-- 百度自动更新 end ↑↑↑↑↑↑ -->
-
 
         <!-- xinyusoft end (注意：微信登录的Activity需要自己去创建，信鸽推送的id也要自己去申请 ) -->
 
@@ -341,9 +351,5 @@
         <!-- 支付宝支付 end -->
 
     </application>
-
-    <uses-sdk
-        android:minSdkVersion="14"
-        android:targetSdkVersion="22" />
 
 </manifest>

@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='utf-8'?>
 <config>
 
-    <html-update-time time="201603251106" />
+    <html-update-time time="201604271925" />
 
     <wxapp-id id="wxb7e93484861c8ccd" />
 
     <wxapp-secret secret="46bdb8ce9224f3a1cee5ea00a9c44ef6" />
     <android>
-        <app-update-time time="201603201707" />
+        <app-update-time time="201604081125" />
 
         <app-guide name="launch_image_port" />
 
