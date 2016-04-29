@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/luckview_act_bg"
+    android:clipToPadding="true"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+    <include android:id="@+id/xinyusoft_luckview_title" layout="@layout/xinyusoft_item_luckview_title" />
+
+
+    <EditText
+        android:layout_above="@+id/luckview_issuancerule_ok"
+        android:id="@+id/luckview_issuancerule_et"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/xinyusoft_luckview_title"
+        android:layout_margin="10dp"
+        android:gravity="top"
+        android:background="@drawable/xinyusoft_luckview_userrule_et" />
+
+
+    <TextView
+        android:id="@+id/luckview_issuancerule_ok"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/xinyusoft_luckview_btnbg"
+        android:gravity="center"
+        android:paddingBottom="15dp"
+        android:paddingTop="15dp"
+        android:layout_marginBottom="10dp"
+        android:text="确定"
+        android:textColor="@color/luckview_act_bg" />
+
+
+</RelativeLayout>

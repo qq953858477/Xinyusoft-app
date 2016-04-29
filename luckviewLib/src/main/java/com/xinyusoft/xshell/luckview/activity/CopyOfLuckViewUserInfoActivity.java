@@ -1,8 +1,5 @@
 package com.xinyusoft.xshell.luckview.activity;
 
-import org.json.JSONException;
-import org.json.JSONObject;
-
 import android.content.Intent;
 import android.os.Build.VERSION;
 import android.os.Build.VERSION_CODES;
@@ -34,6 +31,9 @@ import com.xinyusoft.xshell.luckview.fragment.LiuliangFragment;
 import com.xinyusoft.xshell.luckview.utils.SystemBarTintManager;
 import com.xinyusoft.xshell.luckview.utils.VolleyUtil;
 import com.xinyusoft.xshell.luckview.widget.PagerSlidingTabStrip;
+
+import org.json.JSONException;
+import org.json.JSONObject;
 
 /**
  * Created by zzy on 2016/2/23.
@@ -87,7 +87,7 @@ public class CopyOfLuckViewUserInfoActivity extends FragmentActivity implements 
 	private void setcolorfulStatusBar() {
 		SystemBarTintManager tintManager = new SystemBarTintManager(this);
 		tintManager.setStatusBarTintEnabled(true);
-		tintManager.setTintColor(getResources().getColor(R.color.colorful_status_bar));
+		tintManager.setTintColor(getResources().getColor(R.color.luckview_colorful_status_bar));
 		// SystemBarConfig config = tintManager.getConfig();
 		// listViewDrawer.setPadding(0, config.getPixelInsetTop(true), 0,
 		// config.getPixelInsetBottom());

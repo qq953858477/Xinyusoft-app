@@ -3,7 +3,7 @@
     package="com.xinyusoft.xshell"
     android:hardwareAccelerated="true"
     android:versionCode="10"
-    android:versionName="1.1.4" >
+    android:versionName="1.1.4">
 
     <!-- xinyusoft start -->
     <supports-screens
@@ -27,10 +27,8 @@
     <uses-permission android:name="android.permission.READ_PHONE_STATE" />
     <!-- 录音权限 -->
     <uses-permission android:name="android.permission.RECORD_AUDIO" />
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" >
-    </uses-permission>
-    <uses-permission android:name="android.permission.INTERNET" >
-    </uses-permission>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
 
     <!-- 允许应用修改全局音频设定 -->
@@ -70,13 +68,10 @@
 
     <!-- 百度地图定位 -->
     <!-- 这个权限用于进行网络定位 -->
-    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" >
-    </uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
     <!-- 这个权限用于访问GPS定位 -->
-    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" >
-    </uses-permission>
-    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" >
-    </uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
     <!-- xinyusoft end -->
 
     <application
@@ -84,29 +79,27 @@
         android:hardwareAccelerated="true"
         android:icon="@drawable/logo"
         android:label="@string/app_name"
-        android:supportsRtl="true" >
+        android:supportsRtl="true">
 
         <!-- xinyusoft start -->
         <!-- 自己项目的相关,创建Activity 或者service 都应该在这里创建 start -->
         <activity
-            android:name="com.xinyusoft.xshelllib.ui.HomePageActivity"
+            android:name="com.xinyusoft.HomePageActivity"
             android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale"
             android:label="@string/activity_name"
             android:launchMode="singleTask"
-            android:screenOrientation="portrait"
+
             android:theme="@style/Theme"
-            android:windowSoftInputMode="adjustResize" >
-        </activity>
+            android:windowSoftInputMode="adjustResize" />
         <activity
             android:name="com.xinyusoft.xshell.wxapi.WXEntryActivity"
             android:exported="true"
-            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" >
-        </activity>
+            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" />
         <activity
             android:name="com.xinyusoft.xshelllib.ui.LoadingActivity"
             android:screenOrientation="portrait"
-            android:theme="@android:style/Theme.Light.NoTitleBar" >
-            <intent-filter android:label="@string/launcher_name" >
+            android:theme="@android:style/Theme.Light.NoTitleBar">
+            <intent-filter android:label="@string/launcher_name">
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
@@ -116,8 +109,7 @@
             android:name="com.xinyusoft.xshelllib.ui.GuideActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:screenOrientation="portrait"
-            android:theme="@android:style/Theme.Holo.NoActionBar" >
-        </activity>
+            android:theme="@android:style/Theme.Holo.NoActionBar" />
         <activity
             android:name="com.xinyusoft.xshelllib.ui.NewBrowserActivity"
             android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale"
@@ -125,15 +117,13 @@
             android:process=":xinyu_remote"
             android:screenOrientation="portrait"
             android:theme="@style/Theme"
-            android:windowSoftInputMode="adjustResize" >
-        </activity>
+            android:windowSoftInputMode="adjustResize" />
         <activity
             android:name="com.xinyusoft.xshelllib.lock.UnlockGesturePasswordActivity"
             android:launchMode="singleTask"
             android:process=":xinyu_remote"
             android:screenOrientation="portrait"
-            android:theme="@style/Theme" >
-        </activity>
+            android:theme="@style/Theme" />
         <activity
             android:name="com.xinyusoft.xshelllib.lock.CreateGesturePasswordActivity"
             android:launchMode="singleTask"
@@ -147,53 +137,78 @@
             android:screenOrientation="portrait"
             android:theme="@style/Theme" />
 
-        <service android:name="com.xinyusoft.xshelllib.service.RAIntentService" >
-        </service>
-        <service android:name="com.xinyusoft.xshelllib.service.RAService" >
-        </service>
+        <service android:name="com.xinyusoft.xshelllib.service.RAIntentService" />
+        <service android:name="com.xinyusoft.xshelllib.service.RAService" />
 
         <activity
             android:name="com.zbar.lib.CaptureActivity"
             android:screenOrientation="portrait"
-            android:theme="@android:style/Theme.Light.NoTitleBar" >
-        </activity>
+            android:theme="@android:style/Theme.Light.NoTitleBar" />
 
         <!-- 大转盘相关界面Activity ↓↓↓↓↓↓↓↓↓↓ -->
         <activity
-        android:name="com.xinyusoft.xshell.luckview.activity.LuckViewMainActivity"
-        android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale"
-        android:process=":xinyu_remote"
-        android:screenOrientation="portrait"
-        android:theme="@style/Theme"
-        android:windowSoftInputMode="adjustResize" >
-        </activity>
+            android:name="com.xinyusoft.xshell.luckview.activity.LuckViewMainActivity"
+            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale"
+            android:process=":xinyu_remote"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme"
+            android:windowSoftInputMode="adjustResize" />
         <activity
-        android:name="com.xinyusoft.xshell.luckview.activity.LuckViewRuleActivity"
-        android:process=":xinyu_remote"
-        android:screenOrientation="portrait" >
-        </activity>
+            android:name="com.xinyusoft.xshell.luckview.activity.LuckViewRuleActivity"
+            android:process=":xinyu_remote"
+            android:screenOrientation="portrait" />
         <activity
-        android:name="com.xinyusoft.xshell.luckview.activity.LuckViewUserInfoActivity"
-        android:process=":xinyu_remote"
-        android:screenOrientation="portrait" >
-        </activity>
+            android:name="com.xinyusoft.xshell.luckview.activity.LuckViewUserInfoActivity"
+            android:process=":xinyu_remote"
+            android:screenOrientation="portrait" />
         <activity
-        android:name="com.xinyusoft.xshell.luckview.activity.LuckViewJFOKActivity"
-        android:process=":xinyu_remote"
-        android:screenOrientation="portrait" >
-        </activity>
+            android:name="com.xinyusoft.xshell.luckview.activity.LuckViewJFOKActivity"
+            android:process=":xinyu_remote"
+            android:screenOrientation="portrait" />
         <activity
-        android:name="com.xinyusoft.xshell.luckview.activity.LuckViewStockListActivity"
-        android:process=":xinyu_remote"
-        android:theme="@style/Theme"
-        android:screenOrientation="portrait" >
-        </activity>
+            android:name="com.xinyusoft.xshell.luckview.activity.LuckViewStockListActivity"
+            android:process=":xinyu_remote"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme" />
         <activity
-        android:name="com.xinyusoft.xshell.luckview.activity.LuckViewExchangeActivity"
-        android:process=":xinyu_remote"
-        android:theme="@style/Theme"
-        android:screenOrientation="portrait" >
-        </activity>
+            android:name="com.xinyusoft.xshell.luckview.activity.LuckViewExchangeActivity"
+            android:process=":xinyu_remote"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme" />
+
+        <activity
+            android:name="com.xinyusoft.xshell.luckview.activity.LuckViewMorePriceActivity"
+            android:process=":xinyu_remote"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme" />
+        <activity
+            android:name="com.xinyusoft.xshell.luckview.activity.LuckViewIssuanceActivity"
+            android:process=":xinyu_remote"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme" />
+
+        <activity
+            android:name="com.xinyusoft.xshell.luckview.activity.LuckViewIssuanceRuleActivity"
+            android:process=":xinyu_remote"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme" />
+
+        <activity
+            android:name="com.xinyusoft.xshell.luckview.activity.LuckViewIssuancePriceSettingActivity"
+            android:process=":xinyu_remote"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme" />
+        <activity
+            android:name="com.xinyusoft.xshell.luckview.activity.LuckViewIssuanceSettingImgActivity"
+            android:process=":xinyu_remote"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme" />
+
+        <activity
+            android:name="com.xinyusoft.xshell.luckview.activity.LuckViewIssuanceOkActivity"
+            android:process=":xinyu_remote"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme" />
 
         <!-- 大转盘相关界面Activity ↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑ -->
 
@@ -202,39 +217,51 @@
 
 
         <!-- 信鸽相关 start -->
+
+        <!-- 【必须】 信鸽service -->
+        <!-- 【必须】 (2.30及以上版新增)展示通知的activity -->
+        <activity
+            android:name="com.tencent.android.tpush.XGPushActivity"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent">
+            <intent-filter>
+                <!-- 若使用AndroidStudio，请设置android:name="android.intent.action"-->
+                <action android:name="android.intent.action" />
+            </intent-filter>
+        </activity>
+
         <!-- 【必须】 信鸽receiver广播接收 -->
         <receiver
             android:name="com.tencent.android.tpush.XGPushReceiver"
-            android:process=":xg_service_v2" >
-            <intent-filter android:priority="0x7fffffff" >
+            android:process=":xg_service_v2">
+            <intent-filter android:priority="0x7fffffff">
 
                 <!-- 【必须】 信鸽SDK的内部广播 -->
                 <action android:name="com.tencent.android.tpush.action.SDK" />
                 <action android:name="com.tencent.android.tpush.action.INTERNAL_PUSH_MESSAGE" />
-                <!-- 【必须】 系统广播：开屏和网络切换 -->
-                <action android:name="android.intent.action.USER_PRESENT" />
+                <!-- 【必须】 系统广播：网络切换 -->
                 <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+
+                <!-- 【可选】 系统广播：开屏 -->
+                <action android:name="android.intent.action.USER_PRESENT" />
 
                 <!-- 【可选】 一些常用的系统广播，增强信鸽service的复活机会，请根据需要选择。当然，你也可以添加APP自定义的一些广播让启动service -->
                 <action android:name="android.bluetooth.adapter.action.STATE_CHANGED" />
                 <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
                 <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
             </intent-filter>
+            <!-- 【可选】 usb相关的系统广播，增强信鸽service的复活机会，请根据需要添加 -->
+            <intent-filter android:priority="0x7fffffff">
+                <action android:name="android.intent.action.MEDIA_UNMOUNTED" />
+                <action android:name="android.intent.action.MEDIA_REMOVED" />
+                <action android:name="android.intent.action.MEDIA_CHECKING" />
+                <action android:name="android.intent.action.MEDIA_EJECT" />
+
+                <data android:scheme="file" />
+            </intent-filter>
         </receiver>
 
-        <!-- 【必须】 (2.30及以上版新增)展示通知的activity -->
-        <!-- 【注意】 如果被打开的activity是启动模式为SingleTop，SingleTask或SingleInstance，请根据通知的异常自查列表第8点处理 -->
-        <activity
-            android:name="com.tencent.android.tpush.XGPushActivity"
-            android:exported="true" >
-            <intent-filter>
 
-                <!-- 若使用AndroidStudio，请设置android:name="android.intent.action" -->
-                <action android:name="android.intent.action" />
-            </intent-filter>
-        </activity>
-
-        <!-- 【必须】 信鸽service -->
         <service
             android:name="com.tencent.android.tpush.service.XGPushService"
             android:exported="true"
@@ -244,17 +271,19 @@
         <!-- 【必须】 通知service，此选项有助于提高抵达率 -->
         <service
             android:name="com.tencent.android.tpush.rpc.XGRemoteService"
-            android:exported="true" >
+            android:exported="true">
             <intent-filter>
-                <action android:name="com.xinyusoft.uulcs.PUSH_ACTION" />
+                <action android:name="com.xinyusoft.xshell.PUSH_ACTION" />
             </intent-filter>
         </service>
 
+
         <!-- 【可选】APP实现的Receiver，用于接收消息透传和操作结果的回调，请根据需要添加 -->
         <!-- YOUR_PACKAGE_PATH.CustomPushReceiver需要改为自己的Receiver： -->
-        <receiver android:name="com.xinyusoft.xshelllib.receiver.NotificatinReceiver" >
+        <receiver
+            android:name="com.xinyusoft.xshelllib.receiver.NotificatinReceiver"
+            android:exported="false">
             <intent-filter>
-
                 <!-- 接收消息透传 -->
                 <action android:name="com.tencent.android.tpush.action.PUSH_MESSAGE" />
                 <!-- 监听注册、反注册、设置/删除标签、通知被点击等处理结果 -->
@@ -262,14 +291,15 @@
             </intent-filter>
         </receiver>
 
+
         <!-- 【必须】 请将YOUR_ACCESS_ID修改为APP的AccessId，“21”开头的10位数字，中间没空格 -->
         <meta-data
             android:name="XG_V2_ACCESS_ID"
-            android:value="2100156443" />
+            android:value="2100195126" />
         <!-- 【必须】 请将YOUR_ACCESS_KEY修改为APP的AccessKey，“A”开头的12位字符串，中间没空格 -->
         <meta-data
             android:name="XG_V2_ACCESS_KEY"
-            android:value="A1FRGM2416DF" />
+            android:value="A94EF715UCXI" />
 
         <!-- 信鸽推送 end -->
 
@@ -282,12 +312,7 @@
         <service
             android:name="com.baidu.location.f"
             android:enabled="true"
-            android:process=":remote" >
-            <intent-filter>
-                <action android:name="com.baidu.location.service_v2.2" >
-                </action>
-            </intent-filter>
-        </service>
+            android:process=":remote"/>
         <!-- 百度地图 end -->
 
 
@@ -341,21 +366,16 @@
             android:name="com.alipay.sdk.app.H5PayActivity"
             android:configChanges="orientation|keyboardHidden|navigation"
             android:exported="false"
-            android:screenOrientation="behind" >
-        </activity>
+            android:screenOrientation="behind" />
         <activity
             android:name="com.alipay.sdk.auth.AuthActivity"
             android:configChanges="orientation|keyboardHidden|navigation"
             android:exported="false"
-            android:screenOrientation="behind" >
-        </activity>
+            android:screenOrientation="behind" />
 
         <!-- 支付宝支付 end -->
 
     </application>
 
-    <uses-sdk
-        android:minSdkVersion="14"
-        android:targetSdkVersion="22" />
 
 </manifest>

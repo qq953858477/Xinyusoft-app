@@ -1,8 +1,5 @@
 package com.xinyusoft.xshell.luckview;
 
-import java.util.ArrayList;
-import java.util.List;
-
 import android.content.Context;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
@@ -24,6 +21,10 @@ import android.view.SurfaceHolder.Callback;
 import android.view.SurfaceView;
 
 import com.xinyusoft.xshell.luckview.bean.PrizeStock;
+
+import java.text.DecimalFormat;
+import java.util.ArrayList;
+import java.util.List;
 
 public class LuckyPanView extends SurfaceView implements Callback, Runnable {
 
@@ -256,6 +257,7 @@ public class LuckyPanView extends SurfaceView implements Callback, Runnable {
 	Handler mHandler = new Handler() {
 		public void handleMessage(Message msg) {
 			listener.onLuckPanStop(prize);
+			updatePriceSpeed = 30;
 		}
 	};
 
@@ -264,6 +266,9 @@ public class LuckyPanView extends SurfaceView implements Callback, Runnable {
 
 	// 是否正在画，用于判断mStartAngle的数据准确性
 	private volatile boolean isDraw = true;
+
+	//更新奖品的速度
+	private int updatePriceSpeed = 30;
 
 	@Override
 	public void run() {
@@ -277,7 +282,7 @@ public class LuckyPanView extends SurfaceView implements Callback, Runnable {
 			long start = System.currentTimeMillis();
 
 			// 代表开始旋转了，更新奖品（缓慢的）,这个就相当于500毫秒更新一次盘块
-			if (timeCount > 10) {
+			if (timeCount > updatePriceSpeed) {
 				timeCount = 0;
 				// 速度降到20一下就不会改变盘上的奖品
 				if (mSpeed > 10) {
@@ -430,7 +435,7 @@ public class LuckyPanView extends SurfaceView implements Callback, Runnable {
 			prize = mStrs[3];
 		}
 	}
-
+    DecimalFormat df = new DecimalFormat("0.00");
 	/**
 	 * 绘制文本
 	 */
@@ -444,7 +449,7 @@ public class LuckyPanView extends SurfaceView implements Callback, Runnable {
 		} else {
 			mTextPaint.setColor(0xFFFF0000);
 		}
-		String zdfString = zdf + "%";
+        String zdfString = df.format(zdf) + "%";
 		Path path = new Path();
 		float textWidth = mTextPaint.measureText(prizeStock.getName());
 		if (i == 0) {
@@ -572,6 +577,7 @@ public class LuckyPanView extends SurfaceView implements Callback, Runnable {
 		isSpeed = true;
 		mStartAngle = 0;
 		mSpeed = 10;
+		updatePriceSpeed = 10;
 	}
 
 	public void luckyEnd() {

@@ -8,44 +8,187 @@
 <script src="cordova_plugins.js"></script>
 <script>
 	function testA() {
-		navigator.startLuckViewPlugin.startLuckView("荀彧", '70',
+		navigator.startLuckViewPlugin.startLuckView("荀彧", '73',
 				"http://test.xinyusoft.com:8080/uuFinancialPlanner");
 	}
 
-	function testB() {
-		getDeviceId(success, error);
-	}
-
 	function success(data) {
-		//alert(data);
+		alert(data);
 	}
 
 	function error(data) {
 		alert(data);
 	}
 
-	function testC() {
-		xinyuNewBrowser("testLuckView.html", "success");
+	function test1() {
+		getDeviceId(success, error);
 	}
 
-	function testD() {
-		closeNewBrowser();
+	function test2() {
+		navigator.FilePlugin.createFile (success,"a.txt","芯与科技",1);
 	}
+
+	function test3() {
+		navigator.FilePlugin.readFile(success,"a.txt");
+	}
+
+	function test4() {
+		navigator.FilePlugin.isfileexist(success,"a.txt");
+	}
+
+	function test5() {
+		navigator.FilePlugin.deleteFile(success,"a.txt");
+	}
+
+	function test6() {
+		NativePlugin.prototype.setClipBoard("芯与科技");
+	}
+
+	function test7() {
+		NativePlugin.prototype.startToChangeOrientation("success",1);
+	}
+
+	function test8() {
+		NativePlugin.prototype.startToChangeOrientation("success",0);
+	}
+
+	function test9() {
+		NativePlugin.prototype.shareTextToFriend("分享");
+	}
+
+	function test10() {
+		 NativePlugin.prototype.shareUrlToFriend("www.xinyusoft.com","芯与","芯与网络科技");
+	}
+
+	function test11() {
+		NativePlugin.prototype.shareTextToDialog("分享到文本");
+	}
+
+	function test12() {
+		NativePlugin.prototype.shareUrlToDialog("www.xinyusoft.com","芯与","芯与网络科技");
+	}
+
+	function test13() {
+		navigator.recordplugin.startRecord("success");
+	}
+
+	function test14() {
+		navigator.recordplugin.endRecord("success","http://58.56.93.137:8081/qft/uploadVoice");
+	}
+
+	function test15() {
+		NativePlugin.prototype.xinyuNewBrowser("success","www.xinyusfot.com");
+	}
+
+	function test16() {
+		NativePlugin.prototype.closeNewBrowser();
+	}
+
+	function test17() {
+		NativePlugin.prototype.showKeyboard("success",1,0);
+	}
+
+	function test18() {
+		navigator.locationplugin.location("success");
+	}
+
+	function test19() {
+		navigator.wxplugin.login("success");
+	}
+
+	function test20() {
+		navigator.xingeplugin.xingeRegister(success,"aaa");
+	}
+
+	function test21() {
+		 navigator.app.exitApp();
+	}
+
+	function test22() {
+		 navigator.app.exitApp();
+	}
+
+	function test23() {
+		 cordova.InAppBrowser.open("www.baidu.com", '_self', 'location=no,toolbar=no');
+	}
+
+	function test24() {
+		 navigator.notification.confirm("hellWord", onConfirm, 'Hello', [ 'Restart', 'Exit' ] );
+
+	}
+
 </script>
 </head>
 <body>
-	<a href="javascript:testA()">testLuckView </a>
+	<a href="javascript:testA()">1.获取设备信息 </a>
 	<br />
 	<br />
-	<br />
-	<a href="javascript:testB()">getDeviceId </a>
-	<br />
+	<a href="javascript:test2()">2.文件创建</a>
 	<br />
 	<br />
-	<a href="javascript:testC()">xinyuNewBrowser</a>
+	<a href="javascript:test3()">3.文件读取</a>
 	<br />
 	<br />
+	<a href="javascript:test4()">4.文件是否存在</a>
 	<br />
-	<a href="javascript:testD()">closeNewBrowser</a>
+	<br />
+	<a href="javascript:test5()">5.文件删除</a>
+	<br />
+	<br />
+	<a href="javascript:test6()">6.设置粘贴板</a>  <input type="text">
+	<br />
+	<br />
+	<a href="javascript:test7()">7.横屏</a>
+	<br />
+	<br />
+	<a href="javascript:test8()">8.竖屏</a>
+	<br />
+	<br />
+	<a href="javascript:test9()">9.分享文本到朋友圈</a>
+	<br />
+	<br />
+	<a href="javascript:test10()">10.分享url到朋友圈</a>
+	<br />
+	<br />
+	<a href="javascript:test11()">11.分享文本到好友</a>
+	<br />
+	<br />
+	<a href="javascript:test12()">12.分享文本到朋友圈</a>
+	<br />
+	<br />
+	<a href="javascript:test13()">13.开始录音</a>
+	<br />
+	<br />
+	<a href="javascript:test14()">14.结束录音</a>
+	<br />
+	<br />
+	<a href="javascript:test15()">15.开启一个新的浏览器</a>
+	<br />
+	<br />
+	<a href="javascript:test16()">16.关闭一个新的浏览器</a>
+	<br />
+	<br />
+	<a href="javascript:test17()">17.显示键盘</a>
+	<br />
+	<br />
+	<a href="javascript:test18()">18.地理位置</a>
+	<br />
+	<br />
+	<a href="javascript:test19()">19.微信登录</a>
+	<br />
+	<br />
+	<a href="javascript:test20()">20.信鸽注册</a>
+	<br />
+	<br />
+	<a href="javascript:test21()">21.关闭应用</a>
+	<br />
+	<br />
+	<a href="javascript:test22()">22.数据库操作</a>
+	<br />
+	<br />
+	<a href="javascript:test23()">23.开启一个新的简单的浏览器</a>
+	<br />
+	<br />
+	<a href="javascript:test24()">24.弹出一个系统的弹出框</a>
 </body>
 </html>

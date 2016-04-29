@@ -1,21 +1,7 @@
 package com.xinyusoft.xshell.luckview.activity;
 
-import java.text.ParseException;
-import java.text.SimpleDateFormat;
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.Date;
-import java.util.LinkedList;
-import java.util.List;
-
-import org.json.JSONArray;
-import org.json.JSONException;
-import org.json.JSONObject;
-
 import android.content.Intent;
 import android.graphics.Bitmap;
-import android.os.Build.VERSION;
-import android.os.Build.VERSION_CODES;
 import android.os.Bundle;
 import android.text.Html;
 import android.util.Log;
@@ -23,7 +9,6 @@ import android.view.View;
 import android.view.View.OnClickListener;
 import android.view.ViewGroup;
 import android.view.Window;
-import android.view.WindowManager;
 import android.widget.BaseAdapter;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
@@ -48,9 +33,21 @@ import com.xinyusoft.xshell.luckview.friendscore.AbsListViewBaseActivity;
 import com.xinyusoft.xshell.luckview.friendscore.Constants;
 import com.xinyusoft.xshell.luckview.friendscore.Constants.Extra;
 import com.xinyusoft.xshell.luckview.friendscore.ImagePagerActivity;
+import com.xinyusoft.xshell.luckview.utils.FulStatusBarUtil;
 import com.xinyusoft.xshell.luckview.utils.RelativeDateFormat;
-import com.xinyusoft.xshell.luckview.utils.SystemBarTintManager;
 import com.xinyusoft.xshell.luckview.utils.VolleyUtil;
+
+import org.json.JSONArray;
+import org.json.JSONException;
+import org.json.JSONObject;
+
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Date;
+import java.util.LinkedList;
+import java.util.List;
 
 /**
  * Created by zzy on 2016/2/23.
@@ -80,11 +77,9 @@ public class LuckViewUserInfoActivity extends AbsListViewBaseActivity implements
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		requestWindowFeature(Window.FEATURE_NO_TITLE);
-		if (VERSION.SDK_INT >= VERSION_CODES.KITKAT) {
-			// 透明状态栏
-			getWindow().addFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS);
-		}
-		setcolorfulStatusBar();
+
+		FulStatusBarUtil.setcolorfulStatusBar(this);
+
 		setContentView(R.layout.xinyusoft_activity_luckview_user);
 
 		LuckViewCollector.addActivity(this);
@@ -130,15 +125,6 @@ public class LuckViewUserInfoActivity extends AbsListViewBaseActivity implements
 //			}
 //		});
 
-	}
-
-	/**
-	 * 设置沉浸式状态栏
-	 */
-	private void setcolorfulStatusBar() {
-		SystemBarTintManager tintManager = new SystemBarTintManager(this);
-		tintManager.setStatusBarTintEnabled(true);
-		tintManager.setTintColor(getResources().getColor(R.color.colorful_status_bar));
 	}
 
 	private void initView() {

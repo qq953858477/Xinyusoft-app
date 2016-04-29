@@ -18,7 +18,7 @@
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="#5a3319"
+            android:background="@color/luckview_colorful_status_bar"
             android:orientation="horizontal"
             android:paddingBottom="12dp"
             android:paddingTop="12dp" >
@@ -54,7 +54,7 @@
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="#A66840"
+            android:background="@color/luckview_title"
             android:paddingBottom="5dp" >
 
             <TextView

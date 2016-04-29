@@ -1,5 +1,9 @@
 [
     {
+        "merged": "D:\\Android\\app\\XshellLib\\Xinyusoft\\luckviewLib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\xinyusoft_luckview_btnbg2.xml",
+        "source": "D:\\Android\\app\\XshellLib\\Xinyusoft\\luckviewLib\\build\\intermediates\\bundles\\debug\\res\\drawable\\xinyusoft_luckview_btnbg2.xml"
+    },
+    {
         "merged": "D:\\Android\\app\\XshellLib\\Xinyusoft\\luckviewLib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\xinyusoft_luckview_dialogok.xml",
         "source": "D:\\Android\\app\\XshellLib\\Xinyusoft\\luckviewLib\\build\\intermediates\\bundles\\debug\\res\\drawable\\xinyusoft_luckview_dialogok.xml"
     },
@@ -22,6 +26,10 @@
     {
         "merged": "D:\\Android\\app\\XshellLib\\Xinyusoft\\luckviewLib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\xinyusoft_luckview_ruleok.xml",
         "source": "D:\\Android\\app\\XshellLib\\Xinyusoft\\luckviewLib\\build\\intermediates\\bundles\\debug\\res\\drawable\\xinyusoft_luckview_ruleok.xml"
+    },
+    {
+        "merged": "D:\\Android\\app\\XshellLib\\Xinyusoft\\luckviewLib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\xinyusoft_luckview_userrule_et.xml",
+        "source": "D:\\Android\\app\\XshellLib\\Xinyusoft\\luckviewLib\\build\\intermediates\\bundles\\debug\\res\\drawable\\xinyusoft_luckview_userrule_et.xml"
     },
     {
         "merged": "D:\\Android\\app\\XshellLib\\Xinyusoft\\luckviewLib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\bac2.xml",

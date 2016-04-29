@@ -180,6 +180,7 @@ NativePlugin.prototype.showKeyboard = function(callBackName,type,defultKeyboard)
 		[callBackName,type,defultKeyboard]
 	);
 }
+
 //设置粘贴板
 /**
  * paste 内容
@@ -191,6 +192,20 @@ NativePlugin.prototype.setClipBoard = function(paste){
 		'NativePlugin',
 		'clipboard',
 		[{'paste':paste}]
+	);
+}
+
+/**
+ * 横竖屏切换
+ * paste 内容
+ */
+NativePlugin.prototype.startToChangeOrientation = function(callback, type){
+	cordova.exec(
+		null,
+		null,
+		'NativePlugin',
+		'startToChangeOrientation',
+		[{'type':type,'callbackName':callback}]
 	);
 }
 

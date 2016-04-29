@@ -68,9 +68,10 @@
         android:layout_marginTop="15dp"
         android:background="@drawable/xinyusoft_luckview_ruleok"
         android:gravity="center"
-        android:paddingBottom="10dp"
-        android:paddingTop="10dp"
+        android:paddingBottom="15dp"
+        android:paddingTop="15dp"
         android:text="我知道了"
+        android:textSize="17sp"
         android:textColor="@color/white" />
 
 </LinearLayout>
