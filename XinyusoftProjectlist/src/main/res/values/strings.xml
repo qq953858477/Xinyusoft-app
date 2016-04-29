@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">uniapp</string>
+    <string name="title_activity_loading">LoadingActivity</string>
+</resources>
