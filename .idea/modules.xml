@@ -5,9 +5,12 @@
       <module fileurl="file://$PROJECT_DIR$/CordovaLib/CordovaLib.iml" filepath="$PROJECT_DIR$/CordovaLib/CordovaLib.iml" />
       <module fileurl="file://$PROJECT_DIR$/FragmentTabLibrary/FragmentTabLibrary.iml" filepath="$PROJECT_DIR$/FragmentTabLibrary/FragmentTabLibrary.iml" />
       <module fileurl="file://$PROJECT_DIR$/Xinyusoft.iml" filepath="$PROJECT_DIR$/Xinyusoft.iml" />
+      <module fileurl="file://$PROJECT_DIR$/XinyusoftProjectlist/XinyusoftProjectlist.iml" filepath="$PROJECT_DIR$/XinyusoftProjectlist/XinyusoftProjectlist.iml" />
       <module fileurl="file://$PROJECT_DIR$/XshellLib/XshellLib.iml" filepath="$PROJECT_DIR$/XshellLib/XshellLib.iml" />
       <module fileurl="file://$PROJECT_DIR$/bDIntegrationSDK_LibProject/bDIntegrationSDK_LibProject.iml" filepath="$PROJECT_DIR$/bDIntegrationSDK_LibProject/bDIntegrationSDK_LibProject.iml" />
       <module fileurl="file://$PROJECT_DIR$/gengtoubao-cordova/gengtoubao-cordova.iml" filepath="$PROJECT_DIR$/gengtoubao-cordova/gengtoubao-cordova.iml" />
+      <module fileurl="file://$PROJECT_DIR$/greendaogenerator/greendaogenerator.iml" filepath="$PROJECT_DIR$/greendaogenerator/greendaogenerator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/leidi-cordova/leidi-cordova.iml" filepath="$PROJECT_DIR$/leidi-cordova/leidi-cordova.iml" />
       <module fileurl="file://$PROJECT_DIR$/luckviewLib/luckviewLib.iml" filepath="$PROJECT_DIR$/luckviewLib/luckviewLib.iml" />
       <module fileurl="file://$PROJECT_DIR$/myapplication/myapplication.iml" filepath="$PROJECT_DIR$/myapplication/myapplication.iml" />
       <module fileurl="file://$PROJECT_DIR$/testlcs-cordova/testlcs-cordova.iml" filepath="$PROJECT_DIR$/testlcs-cordova/testlcs-cordova.iml" />
