@@ -1,18 +1,17 @@
 package com.xinyusoft.xshelllib.plugin;
 
-import org.apache.cordova.CallbackContext;
-import org.apache.cordova.CordovaArgs;
-import org.apache.cordova.CordovaPlugin;
-import org.json.JSONException;
-
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
-import android.util.Log;
 
 import com.xinyusoft.xshelllib.application.AppConstants;
 import com.xinyusoft.xshelllib.service.RAService;
+
+import org.apache.cordova.CallbackContext;
+import org.apache.cordova.CordovaArgs;
+import org.apache.cordova.CordovaPlugin;
+import org.json.JSONException;
 
 /**
  * webSocket插件
@@ -34,13 +33,11 @@ public class WebSocketPlugin extends CordovaPlugin {
 	@Override
 	public void onResume(boolean multitasking) {
 		super.onResume(multitasking);
-		Log.i("zzy", "WebSocketPlugin:onResume!!!!!");
 		mRegReceiver();
 	}
 
 	@Override
 	public void onPause(boolean multitasking) {
-		Log.i("zzy", "WebSocketPlugin:onPause:");
 		super.onPause(multitasking);
 		if (mReceiver != null) {
 			cordova.getActivity().unregisterReceiver(mReceiver);

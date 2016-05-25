@@ -1,5 +1,11 @@
 package com.xinyusoft.xshelllib.plugin;
 
+import android.util.Log;
+
+import com.tencent.android.tpush.XGPushManager;
+import com.xinyusoft.xshelllib.tools.xinge.XGPushUtil;
+import com.xinyusoft.xshelllib.utils.PhoneInfo;
+
 import org.apache.cordova.CallbackContext;
 import org.apache.cordova.CordovaArgs;
 import org.apache.cordova.CordovaPlugin;
@@ -7,12 +13,9 @@ import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
-import android.util.Log;
-
-import com.tencent.android.tpush.XGPushManager;
-import com.xinyusoft.xshelllib.tools.xinge.XGPushUtil;
-import com.xinyusoft.xshelllib.utils.PhoneInfo;
-
+/**
+ * 信鸽相关插件
+ */
 public class XingePlugin extends CordovaPlugin{
 	private static final String TAG = "XINGEPlugin";
 	@Override

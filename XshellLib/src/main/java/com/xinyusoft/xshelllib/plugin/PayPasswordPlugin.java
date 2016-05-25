@@ -1,14 +1,17 @@
 package com.xinyusoft.xshelllib.plugin;
 
+import android.content.Intent;
+import android.support.v4.content.LocalBroadcastManager;
+
 import org.apache.cordova.CallbackContext;
 import org.apache.cordova.CordovaPlugin;
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
-import android.content.Intent;
-import android.support.v4.content.LocalBroadcastManager;
-
+/**
+ * 支付密码插件
+ */
 public class PayPasswordPlugin extends CordovaPlugin {
 	@Override
 	public boolean execute(String action, JSONArray args,

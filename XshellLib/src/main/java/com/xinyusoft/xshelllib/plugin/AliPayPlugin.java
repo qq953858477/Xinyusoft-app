@@ -15,6 +15,9 @@ import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
+/**
+ * 支付宝插件
+ */
 public class AliPayPlugin extends CordovaPlugin {
 
 	// 商户PID

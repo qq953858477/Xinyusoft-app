@@ -14,6 +14,9 @@ import org.json.JSONObject;
 
 import java.io.File;
 
+/**
+ * 文件操作插件
+ */
 public class FileOperationPlugin extends CordovaPlugin {
     private static final String TAG = "FileOperationPlugin";
 

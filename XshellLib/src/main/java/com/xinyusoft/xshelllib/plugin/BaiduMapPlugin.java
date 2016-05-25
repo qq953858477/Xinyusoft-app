@@ -1,17 +1,19 @@
 package com.xinyusoft.xshelllib.plugin;
 
+import android.util.Log;
+
+import com.xinyusoft.xshelllib.tools.baidumap.BaiduMapUtil;
+import com.xinyusoft.xshelllib.tools.baidumap.BaiduMapUtil.ReceiveLocationListener;
+
 import org.apache.cordova.CallbackContext;
 import org.apache.cordova.CordovaPlugin;
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
-import android.util.Log;
-
-import com.lidroid.xutils.util.LogUtils;
-import com.xinyusoft.xshelllib.tools.baidumap.BaiduMapUtil;
-import com.xinyusoft.xshelllib.tools.baidumap.BaiduMapUtil.ReceiveLocationListener;
-
+/**
+ * 百度地图插件
+ */
 public class BaiduMapPlugin extends CordovaPlugin {
 
 	@Override
@@ -25,7 +27,6 @@ public class BaiduMapPlugin extends CordovaPlugin {
 		try {
 			if ("location".equals(action)) {
 				if (null != jo && jo.length() > 0) {
-					LogUtils.e("调用到了location");
 					final String callBackName = jo.getString("callBackName");
 					BaiduMapUtil util = new BaiduMapUtil();
 					util.initBaiduMap(cordova.getActivity().getApplicationContext());

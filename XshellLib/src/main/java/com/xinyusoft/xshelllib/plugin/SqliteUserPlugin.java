@@ -1,6 +1,10 @@
 package com.xinyusoft.xshelllib.plugin;
 
-import java.util.ArrayList;
+import com.alibaba.fastjson.JSON;
+import com.xinyusoft.xshelllib.sqlite.UnReadMessage;
+import com.xinyusoft.xshelllib.sqlite.UnReadMessageNum;
+import com.xinyusoft.xshelllib.sqlite.UserBean;
+import com.xinyusoft.xshelllib.sqlite.UserService;
 
 import org.apache.cordova.CallbackContext;
 import org.apache.cordova.CordovaPlugin;
@@ -8,12 +12,11 @@ import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
-import com.alibaba.fastjson.JSON;
-import com.xinyusoft.xshelllib.sqlite.UnReadMessage;
-import com.xinyusoft.xshelllib.sqlite.UnReadMessageNum;
-import com.xinyusoft.xshelllib.sqlite.UserBean;
-import com.xinyusoft.xshelllib.sqlite.UserService;
+import java.util.ArrayList;
 
+/**
+ * 角标更新插件
+ */
 public class SqliteUserPlugin extends CordovaPlugin {
 	@Override
 	public boolean execute(String action, JSONArray args,
